@@ -1,0 +1,1206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Składnia w BNF</title>
+
+<script type="application/javascript">
+    
+    function setTagsOnClicks (tag, jscall ) {
+        var alluses = document.getElementsByTagName(tag);
+        for (var i=0, max=alluses.length; i < max; i++) {
+            var t = alluses[i];
+            t.setAttribute("onclick",jscall);
+        }
+    }
+
+    function appendDivToAllStruct(main_tag, new_tag, new_tag_attr, new_tag_attr_value ) {
+        var definition = null;
+        var all = document.getElementsByTagName(main_tag);
+        for (var i=0, max=all.length; i < max; i++) {
+            var elem = all[i];
+            var node = document.createElement(new_tag);
+            node.setAttribute(new_tag_attr,new_tag_attr_value);
+            elem.appendChild(node);
+        }
+        return definition;
+    }
+
+    function getProperDefObj ( id ) {
+        var definition = null;
+        var all = document.getElementsByTagName("blokdef");
+        for (var i=0, max=all.length; i < max; i++) {
+            var elem = all[i];
+            var elem_id = elem.getAttribute("id");;
+            if ( elem_id == id ) {
+                definition = elem;
+                break;
+            }
+        }
+        return definition;
+    }
+
+    function getUsingDefObjs ( name ) {
+        var definitions = [ ];
+        var all = document.getElementsByTagName("blokdef");
+        for (var i=0, all_max=all.length; i < all_max; i++) {
+            var elem = all[i];
+            var uses_in_elem = elem.getElementsByTagName("uzycie");
+            var children = elem.children;
+            for (var j=0, uses_max=uses_in_elem.length; j < uses_max; j++) {
+                var child = uses_in_elem[j];
+//                alert( i.toString() + ',' + elem_name + ',' + j.toString() + ',' + child.localName + ',' + child.innerText);
+                if ( child.innerText == name ) {
+                    definitions.push(elem);
+                    break;
+                }
+            }
+        }
+        return definitions;
+    }
+
+    function getExpandDiv ( elem ) {
+        var rozwin_div = null;
+        var parent_obj = elem.parentNode;
+        while ( parent_obj ) {
+            if ( parent_obj.className == 'rozwinDiv' ) {
+                rozwin_div = parent_obj;
+                break;
+            }
+            else if ( parent_obj.localName == 'blokdef' ) {
+                var all = parent_obj.getElementsByTagName("div");
+                for (var i=0, all_max=all.length; i < all_max; i++) {
+                    var d_elem = all[i];
+                    if ( d_elem.className = 'rozwinDiv' ) {
+                        // window.location = t;
+                        rozwin_div = d_elem;
+                        break;
+                    }
+                }
+                parent_obj = null;
+                break;
+            }
+            parent_obj = parent_obj.parentNode;
+        }
+        return rozwin_div;
+    }
+
+    function getUpRozwinDiv ( elem ) {
+        var rozwin_div = null;
+        var parent_obj = elem.parentNode;
+        while ( parent_obj ) {
+            if ( parent_obj.className == 'rozwinDiv' ) {
+                rozwin_div = parent_obj;
+                break;
+            }
+            parent_obj = parent_obj.parentNode;
+        }
+        return rozwin_div;
+    }
+
+    function closePrzywolanaDef ( elem ) {
+        var okno = getUpRozwinDiv(elem);
+        if ( okno )
+            okno.innerHTML = '';
+        return;
+    }
+
+    function przywolanaDefHtml ( elem ) {
+        var html = '<div class="przywolanaDef">' + getDefHtml(elem) + 
+               '<br/><button onClick="closePrzywolanaDef(this)">Schowaj</button></div>';
+        return html;
+    }
+
+    function getDefHtml ( elem ) {
+        var html = '';
+        var rozwinDivObj = null;
+        var children = elem.children;
+        for (var j=0, child_max=children.length; j < child_max; j++) {
+            var child = children[j];
+            if (child.className == 'rozwinDiv' ) {
+                rozwinDivObj = child;
+                break;
+            }
+        }
+        if ( rozwinDivObj ) {
+            var store = rozwinDivObj.innerHTML;
+            rozwinDivObj.innerHTML = '';
+            html = elem.innerHTML;
+            rozwinDivObj.innerHTML = store;
+        }
+        else {
+            html = elem.innerHTML;
+        }
+        return html;
+    }
+
+    function przywolaneUsingDefHtml ( elems ) {
+        var html = '<div class="uzywajaceDef">';
+        var max=elems.length;
+        if ( max ) {
+            for (var i=0; i < max; i++)
+                html += "\n" + getDefHtml(elems[i]);
+        }
+        else {
+            html += 'NIE JEST UŻYTY W INNYCH DEFINICJACH';
+        }
+        html += "\n" + '<br/><button onClick="closePrzywolanaDef(this)">Schowaj</button></div>';
+        return html;
+    }
+
+    function showDef(elem, status=true) {
+        var id = elem.innerText;
+        var rozwin_div = getExpandDiv(elem);
+        if ( rozwin_div ) {
+            rozwin_div.innerHTML = '';
+            var target_definition_elem = getProperDefObj(id);
+            if  ( target_definition_elem )
+                rozwin_div.innerHTML = przywolanaDefHtml(target_definition_elem);
+        }
+    }
+
+    function showUse(elem, status=true) {
+        var name = elem.innerText;
+        var rozwin_div = getExpandDiv(elem);
+        if ( rozwin_div ) {
+            rozwin_div.innerHTML = '';
+            var definitions = getUsingDefObjs(name);
+            if  ( definitions )
+                rozwin_div.innerHTML = przywolaneUsingDefHtml(definitions);
+        }
+    }
+
+    function turnOnOffXML(on_off) {
+        var tagvalue = on_off ? 'inline' : 'none';
+        var pktag = [ 'ptag', 'ktag', 'pptag', 'pktag'];
+        pktag.forEach( function(tag) {
+            var all = document.getElementsByTagName(tag);
+            for (var i=0, max=all.length; i < max; i++)
+                all[i].setAttribute('style','display:'+tagvalue);
+        })
+        var rawvalue = on_off ? 'none' : 'inline';
+        var rawtags = [ 'attrib' ];
+        rawtags.forEach( function(tag) {
+            var all = document.getElementsByTagName(tag);
+            for (var i=0, max=all.length; i < max; i++)
+                all[i].setAttribute('style','display:'+rawvalue);
+        })
+    }
+
+    function turnAccordinglyXML() {
+        var elem = document.getElementById('ShowXMLOnOff');
+        turnOnOffXML(elem.checked);
+    }
+
+    function turnOnOffHelp(on_off) {
+        // true - pokaz
+        // false - ukryj
+        // undefiined - trigger
+        var helpwnd = document.getElementById('HelpWindow');
+        if ( on_off === undefined )
+            on_off = helpwnd.style.display == 'none';
+        var tagvalue = on_off ? '' : 'none';
+        helpwnd.setAttribute('style','display:'+tagvalue);
+    }
+
+
+</script>
+
+
+</head>
+
+<body>
+
+
+<div class="all">
+<style>
+
+    raw  { font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; }
+    ptag { font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; }
+    ktag { font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; }
+    pptag { font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; }
+    pktag { font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; }
+    ptag:before { content: "<"; }
+    ptag:after  { content: ">"; }
+    ktag:before { content: "</"; }
+    ktag:after  { content: ">"; }
+    pptag:before { content: "<"; }
+    pktag:before { content: ">"; }
+    attrib:before { content: "attribute."; }
+
+    uzycie { font-family: "Times New Roman", Georgia, Serif;
+             font-style: italic;
+             text-decoration: underline red;
+    }
+
+    definicja { font-family: "Times New Roman", Georgia, Serif;
+                font-style: italic;
+                text-decoration: underline red;
+    }
+
+    attrib { font-family: "Times New Roman", Georgia, Serif;
+             font-style: oblique;
+             font-weight: bold;
+    }
+
+    ptekst { font-size: 150%;
+    }
+
+    pteksti { font-size: 120%;
+    }
+
+    div.scrolledMain {
+        background-color: #ccFFFF;
+        height: 700px;
+        overflow: scroll;
+    }
+
+    div.scrolledDefaultHidden {
+        background-color: #bbf7ce;
+        height: 300px;
+        overflow: scroll;
+    }
+
+    div.przywolanaDef { background-color: #d1d1e0; }
+    div.uzywajaceDef  { background-color: #f1d1e0; }
+
+    .rozwinDev { background-color: #d1d1e0; }
+
+    .container  { width:90%; }
+    .leftButton { float: left;  background-color: #bbf7ce; }
+    .rightButton{ float: right; width: 250px; background-color: yellow; font-size: 140%; font-weight: bold; }
+
+    }	
+</style>
+
+<h1>Niezbędne elementy struktury dokumentów elektronicznych</h1>
+<h2><i>wg Rozporządzenia MSWiA z dnia 30 października 2006 r. (propozycja modyfikacji 28.III.2017, wersja 24.IV.2017)</i></h2>
+<h1>w notacji BNF</h1>
+
+  <div class="container">
+    <div class="leftButton"><button onClick="turnOnOffHelp()"> Objaśnienie </button></div>
+    <div class="rightButton"><input id="ShowXMLOnOff" type='checkbox' checked='1' onclick='turnOnOffXML(this.checked);'/> &nbsp; Format XML </div>
+  </div>
+
+<br/>
+<br/>
+
+<div class="scrolledDefaultHidden" id="HelpWindow">
+
+<pteksti>
+
+  <i>Dokument najlepiej oglądać przy użyciu FireFox (nie wszystkie przeglądarki obsługują kolorowe podkreślenia).<br/><br/>
+
+  Produkcje bezkontekstowe definiulące symbole są następującej postaci:</i><br/>
+
+  <p style="margin-left: 40px;"><definicja>SymbolDefiniowany</definicja> ::= <uzycie>Symbole</uzycie> <i>i</i> <raw>teksty</raw> <i>składające się na</i> <definicja>SymbolDefiniowany</definicja></p>
+ i używają nastepujących konwencji:<br/>
+  <p style="margin-left: 40px;"><raw>tekst</raw> — <i>dokładnie taki tekst musi wystąpić</i></p>
+  <p style="margin-left: 40px;"><raw>{ tekst }</raw> — <i>tekst stanowi objaśnienie, co może byc wartością</i></p>
+  <p style="margin-left: 40px;"><uzycie>Symbol</uzycie> — <i>musi wystąpić wartość definiowana przez Symbol</i></p>
+  <table border="0"><tr>
+    <td> &nbsp; &nbsp; &nbsp; </td><td>
+  <table border="0"><tr>
+    <td>
+      <hr width="1" size="110"/>
+    </td>
+    <td>
+      <table>
+        <tr><td>Element 1</td></tr>
+        <tr><td>Element 2</td></tr>
+        <tr><td> . . . </td></tr>
+        <tr><td>Element n</td></tr>
+      </table>
+    </td>
+    <td>
+      <hr width="1" size="110"/>
+    </td>
+    <td>
+      — <i>dokładnie jeden z elementów musi wystąpić</i>
+    </td>
+  </tr></table>
+    </td>
+  </tr></table></p>
+  <p style="margin-left: 40px;">[ Element ] — <i>użycie elementu jest opcjonalne</i></p>
+  <p style="margin-left: 40px;">Element* — <i>Element może wystąpić 0, 1 lub więcej razy</i></p>
+  <p style="margin-left: 40px;">Element+ — <i>Element może wystąpić 1 lub więcej razy</i></p>
+  <p style="margin-left: 40px;"><b>attribute.</b><raw>Klucz</raw>=<i>"Wartość"</i> — <i>dana musi dodatkowo posiadać atrybut o określonej wartości (podawane przy opisie struktury danych)</i></p>
+  <br/>
+  <i>
+    Hiperlinki<br/>
+    <p style="margin-left: 40px;">
+    Podkreślone symbole są hiperlinkami. Naciśnięcie na symbol nie-terminalny (podkreślony) po prawej stronie produkcji powoduje wyświetlenie jego definicji.<br/>
+    Naciśnięcie na symbol nie-terminalny po lewej stronie produkcji powoduje wyświetlenie listy produkcji, w której symbol ten występuje po prawej stronie.</p>
+    Składnia XML<br/>
+    <p style="margin-left: 40px;">
+    Bez zaznaczenia pola wyboru "Format XML", pokazywana jest struktura danych; w tej postaci kolejność elementów nie ma znaczenia.<br/> Zaznaczenie "Format XML" powoduje wyświetlenie danych w formacie XML, z pokazaniem własciwych tagów pól.</p>
+  </i>
+  <button onClick="turnOnOffHelp(false)">Schowaj</button>
+  <br/><br/>
+</pteksti>
+</div>
+
+<div class="scrolledMain">
+
+<ptekst>
+<br/>
+
+<blokdef id="Dokument">
+  <definicja>Dokument</definicja> ::= <ptag>dokument</ptag>
+          <uzycie>Identyfikator</uzycie>+
+          <uzycie>Tytuł</uzycie>         
+          <uzycie>DataPrzypisana</uzycie>+
+          <uzycie>Format</uzycie>+
+          <uzycie>Dostęp</uzycie>
+          <uzycie>Typ</uzycie>
+          <uzycie>Grupowanie</uzycie>+
+          <uzycie>Twórca</uzycie>*
+        [ <uzycie>Nadawca</uzycie>      ]
+          <uzycie>Odbiorca</uzycie>*
+          <uzycie>Relacja</uzycie>*
+        [ <uzycie>Kwalifikacja</uzycie> ]
+          <uzycie>Język</uzycie>*
+        [  <uzycie>Opis</uzycie>        ]
+        [ <uzycie>Tematyka</uzycie>     ]
+          <uzycie>Uprawnienia</uzycie>*
+          <uzycie>Lokalizacja</uzycie>*
+        [  <uzycie>Status</uzycie>      ]
+      <ktag>dokument</ktag>
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Identyfikator">
+  <definicja>Identyfikator</definicja> ::= <ptag>identyfikator</ptag> <uzycie>TypIdentyfikatora</uzycie> <uzycie>WartośćId</uzycie> [ <uzycie>Podmiot</uzycie> ] <ktag>identyfikator</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="TypIdentyfikatora">
+  <definicja>TypIdentyfikatora</definicja> ::= <ptag>typIdentyfikatora</ptag> { określenie rodzaju identyfikatora pozwalające odróżnić od siebie identyfikatory nadane przez różne podmioty, np. informacja w jakim systemie identyfikator został nadany } <ktag>typIdentyfikatora</ktag> 
+  <br/><br/>
+</blokdef>
+
+<blokdef id="WartośćId">
+  <definicja>WartośćId</definicja> ::= <ptag>wartoscId</ptag> { ciąg znaków będący wartością identyfikatora. W danym zbiorze wartość powinna być unikatowa } <ktag>wartoscId</ktag>
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Tytuł">
+  <definicja>Tytuł</definicja> ::= <ptag>tytul</ptag> <uzycie>Oryginalny</uzycie> <uzycie>Alternatywny</uzycie>* <ktag>tytul</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Oryginalny">
+  <definicja>Oryginalny</definicja> ::= <pptag>oryginalny</pptag> [ <uzycie>OkreślenieJęzyka</uzycie> ]<pktag></pktag> <uzycie>Tekst</uzycie> <ktag>oryginalny</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Alternatywny">
+  <definicja>Alternatywny</definicja> ::= <pptag>alternatywny</pptag> [ <uzycie>OkreślenieJęzyka</uzycie> ] <pktag></pktag> <uzycie>Tekst</uzycie> <ktag>alternatywny</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="OkreślenieJęzyka">
+  <definicja>OkreślenieJęzyka</definicja> ::= <attrib></attrib><raw>kodJezyka=</raw>"<uzycie>KodJęzyka</uzycie>"
+  <br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="DataPrzypisana">
+  <table border="0"><tr>
+    <td>
+      <definicja>DataPrzypisana</definicja> ::=
+    </td>
+    <td>
+      <hr width="1" size="50"/>
+    </td>
+    <td>
+      <raw><table>
+        <tr><td> <uzycie>DataZdarzenia</uzycie> </td></tr>
+        <tr><td> <uzycie>DatyZakres</uzycie> </td></tr>
+      </table></raw>
+    </td>
+    <td>
+      <hr width="1" size="50"/>
+    </td>
+  </tr></table>
+</blokdef>
+
+<blokdef id="DataZdarzenia">
+  <definicja>DataZdarzenia</definicja> ::= <ptag>data</ptag> <uzycie>TypPojedyńczegoZdarzenia</uzycie>
+        <uzycie>CzasPojedyńczy</uzycie> <ktag>data</ktag>
+</blokdef>
+
+<blokdef id="TypPojedyńczegoZdarzenia">
+  <table border="0"><tr>
+    <td>
+      <definicja>TypPojedyńczegoZdarzenia</definicja> ::= <ptag>typDaty</ptag>
+    </td>
+    <td>
+      <hr width="1" size="300"/>
+    </td>
+    <td>
+      <raw><table>
+        <tr><td>opublikowany</td></tr>
+        <tr><td>utworzony</td></tr>
+        <tr><td>data na piśmie</td></tr>
+        <tr><td>uzyskany</td></tr>
+        <tr><td>doręczony</td></tr>
+        <tr><td>wysłany</td></tr>
+        <tr><td>zatwierdzony</td></tr>
+        <tr><td>podpisany</td></tr>
+        <tr><td>zmodyfikowany</td></tr>
+        <tr><td>data rejestracji</td></tr>
+      </table></raw>
+    </td>
+    <td>
+      <hr width="1" size="300"/>
+    </td>
+    <td>
+      <ktag>typDaty</ktag>
+    </td>
+  </tr></table>
+</blokdef>
+
+<blokdef id="CzasPojedyńczy">
+  <definicja>CzasPojedyńczy</definicja> ::= <ptag>czas</ptag> <uzycie>Czas</uzycie> <ktag>czas</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="DatyZakres">
+  <definicja>DatyZakres</definicja> ::= <ptag>data</ptag> <ptag>zakresDat</ptag>daty skrajne<ktag>zakresDat</ktag> <ptag>czasOd</ptag>  <uzycie>Czas</uzycie> <ktag>czasOd</ktag> <ptag>czasDo</ptag> <uzycie>Czas</uzycie> <ktag>czasDo</ktag> <ktag>data</ktag>
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Format">
+  <definicja>Format</definicja> ::= <ptag>format</ptag> <uzycie>TypFormatu</uzycie> [ <uzycie>Specyfikacja</uzycie> ] [ <uzycie>Niekompletność</uzycie> ] [ <uzycie>FormatWielkość</uzycie> ] <ktag>format</ktag>
+  <br/>
+</blokdef>
+
+<blokdef id="TypFormatu">
+  <table border="0"><tr>
+    <td>
+      <definicja>TypFormatu</definicja> ::= <ptag>typFormatu</ptag>
+    </td>
+    <td>
+      <hr width="1" size="70"/>
+    </td>
+    <td>
+      <table>
+        <tr><td><uzycie>FormatElektroniczny</uzycie></td></tr>
+        <tr><td><attrib></attrib><raw>fizyczny</raw> <uzycie>FormatFizyczny</uzycie></td></tr>
+      </table>
+    </td>
+    <td>
+      <hr width="1" size="70"/>
+    </td>
+    <td>
+      <ktag>typFormatu</ktag>
+    </td>
+  </tr></table>
+</blokdef>
+
+<blokdef id="Specyfikacja">
+  <definicja>Specyfikacja</definicja> ::= <ptag>specyfikacja</ptag> <uzycie>Tekst</uzycie> <ktag>specyfikacja </ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Niekompletność">
+  <definicja>Niekompletność</definicja> ::= <ptag>niekompletnosc</ptag> <raw>tak</raw> <ktag>niekompletnosc</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="FormatWielkość">
+  <definicja>FormatWielkość</definicja> ::= <pptag>wielkosc</pptag> <uzycie>Miara</uzycie> <pktag></pktag> <uzycie>Tekst</uzycie> <ktag>wielkosc</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Miara">
+  <definicja>Miara</definicja> ::= <attrib></attrib><raw>miara</raw>="<uzycie>MiaraWielkości</uzycie>"
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Dostęp">
+  <definicja>Dostęp</definicja> ::= <ptag>dostep</ptag> <uzycie>Dostępność</uzycie> [ <uzycie>Uwagi</uzycie> ] [ <uzycie>DataTylkoPo</uzycie> ]
+    <ktag>dostep</ktag>
+  <br/>
+</blokdef>
+
+<blokdef id="Dostępność">
+  <table border="0"><tr>
+    <td>
+      <definicja>Dostępność</definicja> ::= <ptag>dostepnosc</ptag> <attrib></attrib>
+    </td>
+    <td>
+      <hr width="1" size="100"/>
+    </td>
+    <td>
+      <raw><table>
+        <tr><td>publiczny</td></tr>
+        <tr><td>niepubliczny</td></tr>
+        <tr><td>wyłączony</td></tr>
+      </table></raw>
+    </td>
+    <td>
+      <hr width="1" size="100"/>
+    </td>
+    <td>
+      <ktag>dostepnosc</ktag>
+    </td>
+  </tr></table>
+</blokdef>
+
+<blokdef id="Uwagi">
+  <definicja>Uwagi</definicja> ::= <ptag>uwagi</ptag> <uzycie>Tekst</uzycie> <ktag>uwagi</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="DataTylkoPo">
+  <definicja>DataTylkoPo</definicja> ::= <ptag>data</ptag> <uzycie>TypDataPo</uzycie> <uzycie>CzasPojedyńczy</uzycie> <ktag>data</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="TypDataPo">
+  <definicja>TypDataPo</definicja> ::= <ptag>typ</ptag> <raw>dostępny po <ktag>typ</ktag> <uzycie>CzasPojedyńczy</uzycie>
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Typ">
+  <definicja>Typ</definicja> ::= <ptag>typ</ptag> <uzycie>Klasa</uzycie> <uzycie>Rodzaj</uzycie>+ <ktag>typ</ktag>
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Grupowanie">
+  <definicja>Grupowanie</definicja> ::= <ptag>grupowanie</ptag> <uzycie>TypGrupy</uzycie> <uzycie>KodGrupy</uzycie> <uzycie>Opis</uzycie> <ktag>grupowanie</ktag>
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Twórca">
+  <definicja>Twórca</definicja> ::= <ptag>tworca</ptag> <uzycie>Funkcja</uzycie>+ <uzycie>Podmiot</uzycie> <ktag>tworca</ktag>
+  <br/>
+</blokdef>
+
+<blokdef id="Funkcja">
+  <table border="0"><tr>
+    <td>
+      <definicja>Funkcja</definicja> ::= <ptag>funkcja</ptag>
+    </td>
+    <td>
+      <hr width="1" size="160"/>
+    </td>
+    <td>
+      <raw><table>
+        <tr><td>podpisał</td></tr>
+        <tr><td>utworzył</td></tr>
+        <tr><td>modyfikował</td></tr>
+        <tr><td>zatwierdził</td></tr>
+        <tr><td>opublikowany</td></tr>
+      </table></raw>
+    </td>
+    <td>
+      <hr width="1" size="160"/>
+    </td>
+    <td>
+      <ktag>funkcja</ktag>
+    </td>
+  </tr></table>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Nadawca">
+  <definicja>Nadawca</definicja> ::= <ptag>nadawca</ptag> <uzycie>Podmiot</uzycie> <ktag>nadawca</ktag>
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Odbiorca">
+  <definicja>Odbiorca</definicja> ::= <ptag>odbiorca</ptag> [ <uzycie>DoWiadomości</uzycie> ] <uzycie>Podmiot</uzycie> <ktag>odbiorca</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="DoWiadomości">
+     <definicja>DoWiadomości</definicja> ::= <ptag>doWiadomosci</ptag> <raw>tak</raw> <ktag>doWiadomosci</ktag>
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Relacja">
+  <definicja>Relacja</definicja> ::= <ptag>relacja</ptag> <uzycie>Identyfikator</uzycie>+ <uzycie>TypRelacji</uzycie> <ktag>relacja</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="TypRelacji">
+  <table border="0"><tr>
+    <td>
+      <definicja>TypRelacji</definicja> ::= <ptag>typRelacji</ptag>
+    </td>
+    <td>
+      <hr width="1" size="360"/>
+    </td>
+    <td>
+      <raw><table>
+        <tr><td>ma odniesienie</td></tr>
+        <tr><td>odnosi się do</td></tr>
+        <tr><td>jest dekretacją</td></tr>
+        <tr><td>ma dekretację</td></tr>
+        <tr><td>ma podpis</td></tr>
+        <tr><td>jest podpisem</td></tr>
+        <tr><td>ma wersję</td></tr>
+        <tr><td>jest wersją</td></tr>
+        <tr><td>ma część</td></tr>
+        <tr><td>jest częścią</td></tr>
+        <tr><td>ma format</td></tr>
+        <tr><td>jest formatem</td></tr>
+      </table></raw>
+    </td>
+    <td>
+      <hr width="1" size="360"/>
+    </td>
+    <td>
+      <ktag>typRelacji</ktag>
+    </td>
+  </tr></table>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Kwalifikacja">
+  <definicja>Kwalifikacja</definicja> ::= <ptag>kwalifikacja</ptag> <uzycie>KategoriaArchiwalna</uzycie> <uzycie>DataBezOpisu</uzycie> <uzycie>Podmiot</uzycie> <ktag>kwalifikacja</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="KategoriaArchiwalna">
+  <definicja>KategoriaArchiwalna</definicja> ::= <ptag>kategoria</ptag> { oznaczenie kategorii archiwalnej } <ktag>kategoria</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="DataDnia">
+  <definicja>DataDnia</definicja> ::= <ptag>data</ptag>
+  <uzycie>Rok</uzycie> - <uzycie>Miesiąc</uzycie> - <uzycie>Dzień</uzycie> <ktag>data</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="DataBezOpisu">
+  <definicja>DataBezOpisu</definicja> ::= <ptag>data</ptag> <uzycie>Czas</uzycie> <ktag>data</ktag>
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Język">
+  <definicja>Język</definicja> ::= <pptag>jezyk</pptag> <uzycie>OkreślenieJęzyka</uzycie> <pktag></pktag> [ <uzycie>NazwaJęzyka</uzycie> ] <ktag>jezyk</ktag>
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Opis">
+  <definicja>Opis</definicja> ::= <ptag>opis</ptag> { w zależności od kontekstu: krótki opis w przypadku dokumentu; hasło klasyfikacyjne wykazu akt w przypadku sprawy; w przypadku grupy dokumentów innej niż sprawa - tekstowy opis grupy } <ktag>opis</ktag>
+  <br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Tematyka">
+  <definicja>Tematyka</definicja> ::= <ptag>tematyka</ptag> [ <uzycie>Przedmiot</uzycie> ]* [ <uzycie>WspomnianaOsoba</uzycie> ]* [ <uzycie>Miejsce</uzycie> ]* [ <uzycie>DatyZakres</uzycie> ]* [ <uzycie>Odbiorcy</uzycie> ]* [ <uzycie>InnyTemat</uzycie> ]* <ktag>tematyka</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Przedmiot">
+  <definicja>Przedmiot</definicja> ::= <ptag>przedmiot</ptag> { określenie tematyki treści dokumentu na bardzo dużym poziomie ogólności, nie będące nazwą własną (tj. nie nazwą geograficzną, osoby, obiektu, ulicy, instytucji itp.) } <ktag>przedmiot</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="WspomnianaOsoba">
+  <definicja>WspomnianaOsoba</definicja> ::= <ptag>wspomnianaOsoba</ptag> { określenie osoby o której traktuje treść dokumentu } <ktag>wspomnianaOsoba</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Miejsce">
+  <definicja>Miejsce</definicja> ::= <ptag>miejsce</ptag> { określenie obszaru administracyjnego lub obiektów geograficznych o których traktuje treść } <ktag>miejsce</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Odbiorcy">
+  <definicja>Odbiorcy</definicja> ::= <ptag>odbiorcy</ptag> { kategorię (grupa) osób lub instytucji, dla których dany dokument jest przeznaczony (do których kierowana jest treść) } <ptag>odbiorcy</ptag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="InnyTemat">
+  <definicja>InnyTemat</definicja> ::= <ptag>inne</ptag> <ptag>klucz</ptag> <uzycie>Klucz</uzycie> <ktag>klucz</ktag>  <ptag>wartosc</ptag> <uzycie>WartośćKlucza</uzycie> <ktag>wartosc</ktag> <ktag>inne</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Klucz">
+  <definicja>Klucz</definicja> ::= { inna wskazówka dotycząca tematyki: słowo kluczowe. W danym dokumencie wartość powinna być unikatowa } 
+  <br/><br/>
+</blokdef>
+
+<blokdef id="WartośćKlucza">
+  <definicja>WartośćKlucza</definicja> ::= { ciąg znaków będący wartością klucza. W danym dokumencie para "Klucz" - "WartośćKlucza" powinna być unikatowa }
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Uprawnienia">
+  <definicja>Uprawnienia</definicja> ::= <ptag>uprawnienia</ptag> <uzycie>OpisUprawnień</uzycie> <ktag>uprawnienia</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="OpisUprawnień">
+  <definicja>OpisUprawnień</definicja> ::= { Wskazanie podmiotu uprawnionego do dysponowania treścią dokumentu }
+  <br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Podmiot">
+  <table border="0"><tr>
+    <td>
+      <definicja>Podmiot</definicja> ::= <ptag>podmiot</ptag>
+    </td>
+    <td>
+      <hr width="1" size="70"/>
+    </td>
+    <td>
+      <raw><table>
+        <tr><td><uzycie>Osoba</uzycie></td></tr>
+        <tr><td><uzycie>Instytucja</uzycie></td></tr>
+      </table></raw>
+    </td>
+    <td>
+      <hr width="1" size="70"/>
+    </td>
+    <td>
+      <ktag>podmiot</ktag>
+    </td>
+  </tr></table>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Osoba">
+  <definicja>Osoba</definicja> ::= <ptag>osoba</ptag> [ <uzycie>IdOsoby</uzycie> ]* <uzycie>Nazwisko</uzycie> [ <uzycie>Imię</uzycie> ]* [ <uzycie>Adres</uzycie> ]* [ <uzycie>Kontakt</uzycie> ]* <ktag>osoba</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="IdOsoby">
+  <definicja>IdOsoby</definicja> ::= <pptag>id</pptag> <attrib></attrib><raw>typId=</raw>"<uzycie>TypIdOsoby</uzycie>" <pktag></pktag> <uzycie>WartośćIdOsoby</uzycie> <ktag>id</ktag>
+  <br/>
+</blokdef>
+
+<blokdef id="TypIdOsoby">
+  <table border="0"><tr>
+    <td>
+      <definicja>TypIdOsoby</definicja> ::=
+    </td>
+    <td>
+      <hr width="1" size="100"/>
+    </td>
+    <td>
+      <raw><table>
+        <tr><td>PESEL</td></tr>
+        <tr><td>NIP</td></tr>
+      </table></raw>
+    </td>
+    <td>
+      <hr width="1" size="100"/>
+    </td>
+  </tr></table>
+</blokdef>
+
+<blokdef id="WartośćIdOsoby">
+  <definicja>WartośćIdOsoby</definicja> ::= { zgodnie ze standardem określonym przez atrybut typIdOsoby }
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Nazwisko">
+  <definicja>Nazwisko</definicja> ::= <ptag>nazwisko</ptag> { zapis nazwiska ... } <ktag>nazwisko</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Imię">
+  <definicja>Imię</definicja> ::= <ptag>imie</ptag> { zapis imienia ... } <ktag>imie</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Kontakt">
+  <definicja>Kontakt</definicja> ::= <ptag>kontakt typKontaktu="<uzycie>TypKontaktu</uzycie>"</ptag> <uzycie>WartośćKontaktu</uzycie> <ktag>kontakt</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="TypKontaktu">
+  <table border="0"><tr>
+    <td>
+      <definicja>TypKontaktu</definicja> ::=
+    </td>
+    <td>
+      <hr width="1" size="130"/>
+    </td>
+    <td>
+      <raw><table>
+        <tr><td>telefon</td></tr>
+        <tr><td>faks</td></tr>
+        <tr><td>email</td></tr>
+      </table></raw>
+    </td>
+    <td>
+      <hr width="1" size="130"/>
+    </td>
+  </tr></table>
+</blokdef>
+
+<blokdef id="WartośćKontaktu">
+  <definicja>WartośćKontaktu</definicja> ::= { zgodnie ze standardem określonym przez atrybut typKontaktu }
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Instytucja">
+  <definicja>Instytucja</definicja> ::= <ptag>instytucja</ptag> [ <uzycie>IdInstytucji</uzycie> ]*  <uzycie>Nazwa</uzycie> [ <uzycie>Adres</uzycie> ]* [ <uzycie>Kontakt</uzycie> ]* [ <uzycie>Komórka</uzycie> ] [ <uzycie>Pracownik</uzycie> ] <ktag>instytucja</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="IdInstytucji">
+  <definicja>IdInstytucji</definicja> ::= <ptag>id typId="<uzycie>TypIdInstytucji</uzycie>"</ptag> <uzycie>WartośćIdInstytucji</uzycie> <ktag>id</ktag>
+  <br/>
+</blokdef>
+
+<blokdef id="TypIdInstytucji">
+  <table border="0"><tr>
+    <td>
+      <definicja>TypIdInstytucji</definicja> ::=
+    </td>
+    <td>
+      <hr width="1" size="130"/>
+    </td>
+    <td>
+      <raw><table>
+        <tr><td>NIP</td></tr>
+        <tr><td>KRS</td></tr>
+        <tr><td>REGON</td></tr>
+      </table></raw>
+    </td>
+    <td>
+      <hr width="1" size="130"/>
+    </td>
+  </tr></table>
+</blokdef>
+
+<blokdef id="WartośćIdInstytucji">
+  <definicja>WartośćIdInstytucji</definicja> ::= { zgodnie ze standardem określonym przez atrybut typIdInstytucji }
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Nazwa">
+  <definicja>Nazwa</definicja> ::= <ptag>nazwa</ptag> { nazwa instytucji lub komórki, zależnie od kontekstu } <ktag>nazwa</ktag>
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Komórka">
+  <definicja>Komórka</definicja> ::= <ptag>komorka</ptag>
+  <uzycie>Nazwa</uzycie> [ <uzycie>Adres</uzycie> ] [ <uzycie>Kontakt</uzycie> ]* [ <uzycie>Komórka</uzycie> ]  [ <uzycie>Pracownik</uzycie> ] <ktag>komorka</ktag>
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Pracownik">
+  <definicja>Pracownik</definicja> ::= <ptag>pracownik</ptag> <uzycie>Nazwisko</uzycie> [ <uzycie>Imię</uzycie> ]* [ <uzycie>Kontakt</uzycie> ]* [ <uzycie>Stanowisko</uzycie> ] <ktag>pracownik</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Stanowisko">
+  <definicja>Stanowisko</definicja> ::= <ptag>stanowisko</ptag> { nazwa stanowiska pracownika } <ktag>stanowisko</ktag>
+  <br/><br/>
+</blokdef>
+
+<!-- -->
+
+<blokdef id="Adres">
+  <definicja>Adres</definicja> ::= <ptag>adres</ptag> [ <uzycie>KodPocztowy</uzycie> ] [ <uzycie>Poczta</uzycie> ] <uzycie>Miejscowość</uzycie> [ <uzycie>Ulica</uzycie> ] [ <uzycie>Budynek</uzycie> ] [ <uzycie>Lokal</uzycie> ] [ <uzycie>SkrytkaPocztowa</uzycie> ] [ <uzycie>Uwagi</uzycie> ] <uzycie>Kraj</uzycie> <ktag>adres</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="KodPocztowy">
+  <definicja>KodPocztowy</definicja> ::= <ptag>kodPocztowy</ptag> { wartość kodu pocztowego } <ktag>kodPocztowy</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Poczta">
+  <definicja>Poczta</definicja> ::= <ptag>poczta</ptag> { nazwa miejscowości - siedziby urzędu pocztowego } <ktag>poczta</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Miejscowość">
+  <definicja>Miejscowość</definicja>  ::= <ptag>miejscowosc</ptag> { nazwa miejscowości } <ktag>miejscowosc</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Ulica">
+  <definicja>Ulica</definicja>  ::= <ptag>ulica</ptag> { nazwa ulicy, placu lub innego obiektu precyzującego miejsce w miejscowości  } <ktag>ulica</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Budynek">
+  <definicja>Budynek</definicja>  ::= <ptag>budynek</ptag> { numer budynku lub przy ulicy lub placu lub numer budynku w miejscowości } <ktag>budynek</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Lokal">
+  <definicja>Lokal</definicja>  ::= <ptag>lokal</ptag> { numer lokalu w budynku } <ktag>lokal</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="SkrytkaPocztowa">
+  <definicja>SkrytkaPocztowa</definicja>  ::= <ptag>skrytkaPocztowa</ptag> { skrytka w urzędzie pocztowym } <ktag>skrytkaPocztowa</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Uwagi">
+  <definicja>Uwagi</definicja>  ::= <ptag>uwagi</ptag> { informacje dodatkowe umożliwiające doprecyzowanie adresu w przypadku gdy nie jest to możliwe za pomocą pozostałych jego elementów } <ktag>uwagi</ktag>
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Kraj">
+  <definicja>Kraj</definicja>  ::= <ptag>kraj</ptag> { składnik określający kraj } <ktag>kraj</ktag>
+  <br/><br/>
+</blokdef>
+
+<!--  --  --  --  --  --  --  --  --  -->
+
+<blokdef id="Czas">
+  <definicja>Czas</definicja> ::=
+  <uzycie>Rok</uzycie> [ - <uzycie>Miesiąc</uzycie> [ - <uzycie>Dzień</uzycie> [ T <uzycie>Godzina</uzycie> [ : <uzycie>Minuta</uzycie> [ : <uzycie>Sekunda</uzycie> [ . <uzycie>SetneSekundy</uzycie> [ <uzycie>PlusMinus</uzycie> <uzycie>Godzina</uzycie> [ : <uzycie>Minuta</uzycie> ] ] ] ] ] ] ] ]
+  <br/><br/>
+</blokdef>
+
+<blokdef id="Rok">
+  <definicja>Rok</definicja> ::= { czerocyfrowy zapis roku }
+  <br/>
+</blokdef>
+
+<blokdef id="Miesiąc">
+  <definicja>Miesiąc</definicja> ::= { dwucyfrowy zapis miesiąca }
+  <br/>
+</blokdef>
+
+<blokdef id="Dzień">
+  <definicja>Dzień</definicja> ::= { dwucyfrowy zapis dnia miesiąca }
+  <br/>
+</blokdef>
+
+<blokdef id="Godzina">
+  <definicja>Godzina</definicja> ::= { dwucyfrowy zapis godziny }
+  <br/>
+</blokdef>
+
+<blokdef id="Minuta">
+  <definicja>Minuta</definicja> ::= { dwucyfrowy zapis minut }
+  <br/>
+</blokdef>
+
+<blokdef id="Sekunda">
+  <definicja>Sekunda</definicja> ::= { dwucyfrowy zapis sekund }
+  <br/>
+</blokdef>
+
+<blokdef id="SetneSekundy">
+  <definicja>SetneSekundy</definicja> ::= { dwucyfrowy zapis setnych części sekundy }
+  <br/>
+</blokdef>
+
+<blokdef id="PlusMinus">
+  <table border="0"><tr>
+    <td>
+      <definicja>PlusMinus</definicja> ::=
+    </td>
+    <td>
+      <hr width="1" size="70"/>
+    </td>
+    <td>
+      <table>
+        <tr><td>+</td></tr>
+        <tr><td>—</td></tr>
+      </table>
+    </td>
+    <td>
+      <hr width="1" size="70"/>
+    </td>
+  </tr></table>
+</blokdef>
+
+
+<br/>
+
+<br/>
+
+
+<h2>Słowniki elementarne</h2>
+
+<blokdef id="RodzajTekstuNieUzyte">
+  <table border="0"><tr>
+    <td>
+      <definicja>RodzajTekstuNieUzyte</definicja> ::= <ptag>rodzajTekstu</ptag>
+    </td>
+    <td>
+      <hr width="1" size="1000"/>
+    </td>
+    <td>
+      <raw><table>
+        <tr><td>adnotacja</td></tr>
+        <tr><td>akt notarialny</td></tr>
+        <tr><td>decyzja</td></tr>
+        <tr><td>dekretacja</td></tr>
+        <tr><td>dokument księgowy</td></tr>
+        <tr><td>informacja</td></tr>
+        <tr><td>interpretacja podatkowa</td></tr>
+        <tr><td>inne pismo/dokument</td></tr>
+        <tr><td>inny środek zaskarżenia</td></tr>
+        <tr><td>koperta</td></tr>
+        <tr><td>notatka</td></tr>
+        <tr><td>odwołanie</td></tr>
+        <tr><td>opinia</td></tr>
+        <tr><td>oświadczenie</td></tr>
+        <tr><td>pełnomocnictwo</td></tr>
+        <tr><td>plan/projekt</td></tr>
+        <tr><td>podanie/wniosek</td></tr>
+        <tr><td>podpis elektroniczny</td></tr>
+        <tr><td>postanowienie</td></tr>
+        <tr><td>potwierdzenie odbioru/doręczenia/przedłożenia</td></tr>
+        <tr><td>protokół</td></tr>
+        <tr><td>raport</td></tr>
+        <tr><td>rejestr/ewidencja</td></tr>
+        <tr><td>rozstrzygnięcie nadzorcze</td></tr>
+        <tr><td>rozporządzenie</td></tr>
+        <tr><td>sprzeciw</td></tr>
+        <tr><td>tytuł wykonawczy</td></tr>
+        <tr><td>skarga</td></tr>
+        <tr><td>uchwała</td></tr>
+        <tr><td>ugoda administracyjna</td></tr>
+        <tr><td>umowa</td></tr>
+        <tr><td>upoważnienie</td></tr>
+        <tr><td>wezwanie</td></tr>
+        <tr><td>wyrok</td></tr>
+        <tr><td>zarządzenie</td></tr>
+        <tr><td>zaświadczenie</td></tr>
+        <tr><td>zawiadomienie</td></tr>
+        <tr><td>zażalenie</td></tr>
+        <tr><td>zeznanie</td></tr>
+        <tr><td>zgłoszenie</td></tr>
+      </table></raw>
+    </td>
+    <td>
+      <hr width="1" size="1000"/>
+    </td>
+    <td>
+      <ktag>rodzajTekstu</ktag>
+    </td>
+  </tr></table>
+  <br/>
+</blokdef>
+
+
+<h2>Elementy podstawowe</h2>
+
+<blokdef id="Tekst">
+  <definicja>Tekst</definicja> ::= { niepusty łańcuch znaków }
+  <br/>
+</blokdef>
+
+<blokdef id="KodJęzyka">
+  <definicja>KodJęzyka</definicja> ::= { kod języka naturalnego zgodnie ze standardem ISO-639-2 }
+  <br/>
+</blokdef>
+
+<blokdef id="FormatElektroniczny">
+  <definicja>FormatElektroniczny</definicja> ::= { format wymieniony w Rozporządzeniu Rady Ministrów z dnia 12 kwietnia 2012 r. w sprawie Krajowych Ram Interoperacyjności, np. eml, doc, xml, pdf }
+  <br/>
+</blokdef>
+
+<blokdef id="FormatFizyczny">
+  <definicja>FormatFizyczny</definicja> ::= { format fizycznego dokumentu, np. A4, pamięć USB, płyta, VHS }
+  <br/>
+</blokdef>
+
+<blokdef id="FormatInny">
+  <definicja>FormatInny</definicja> ::= { opis nietypowego formatu dokumentu }
+  <br/>
+</blokdef>
+
+<blokdef id="MiaraWielkości">
+  <definicja>MiaraWielkości</definicja> ::= { określenie jednostki specyfikacji formatu, np. kB, strona, minuta }
+  <br/>
+</blokdef>
+
+<blokdef id="Klasa">
+  <definicja>Klasa</definicja> ::= <ptag>klasa</ptag> { określenie typu dokumentu na bardzo ogólnym poziomie (np. tekst, dźwięk, obraz, obraz ruchomy itd) } <ktag>klasa</ktag>
+  <br/>
+</blokdef>
+
+<blokdef id="Rodzaj">
+  <definicja>Rodzaj</definicja> ::= <ptag>rodzaj</ptag> { określenie typu dokumentu w ramach klasy; ta definicja powinna być rozbita na różne, właściwe dla swej klasy } <ktag>rodzaj</ktag>
+  <br/>
+</blokdef>
+
+<blokdef id="TypGrupy">
+  <definicja>TypGrupy</definicja> ::= <ptag>typGrupy</ptag> { określenie typu grupy dokumentów np. sprawa, rejestr umów, rejestr skarg i wniosków itd. } <ktag>typGrupy</ktag>
+  <br/>
+</blokdef>
+
+<blokdef id="KodGrupy">
+  <definicja>KodGrupy</definicja> ::= <ptag>kodGrupy</ptag>  { numer albo ciąg znaków będący identyfikatorem grupy dokumentów. W danym kontekście (miejscu w strukturze obiegu dokumentów) wartość powinna być unikatowa } <ktag>kodGrupy</ktag>
+  <br/>
+</blokdef>
+
+<blokdef id="NazwaJęzyka">
+  <definicja>NazwaJęzyka</definicja> ::= { nazwa języka; podawać tylko w przykadku, gdy KodJęzyka nie jest jednoznaczny }
+  <br/>
+</blokdef>
+
+<blokdef id="Lokalizacja">
+  <definicja>Lokalizacja</definicja> ::= <ptag>lokalizacja</ptag> { lokalizacja dokumentu - do usunięcia ? } <ktag>lokalizacja</ktag>
+  <br/>
+</blokdef>
+
+<blokdef id="Status">
+  <definicja>Status</definicja> ::= <ptag>status</ptag> { status dokumentu - do usunięcia ? } <ktag>status</ktag>
+  <br/>
+</blokdef>
+
+</ptekst>
+</div>
+
+</body></html>
+
+
+<script type="application/javascript">
+    // Inicjalizacja: dodanie <div> — miejsca na wyświetlane definicje; ustawienie 'OnCLick' dla definicji i użyć
+    setTagsOnClicks("uzycie"   , "javascript:showDef(this)");
+    setTagsOnClicks("definicja", "javascript:showUse(this)");
+    appendDivToAllStruct("blokdef", 'div', 'class', "rozwinDiv");
+    turnAccordinglyXML();
+    turnOnOffHelp(false);
+</script>
+

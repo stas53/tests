@@ -999,15 +999,12 @@
       }
 
       function appendDivToAllDefinitionStruct(main_div_class, new_tag, new_tag_attr, new_tag_attr_value ) {
-          var definition = null;
           var all = document.getElementsByClassName(main_div_class);
           for (var i=0, max=all.length; i < max; i++) {
-              var elem = all[i];
               var node = document.createElement(new_tag);
               node.setAttribute(new_tag_attr,new_tag_attr_value);
-              elem.appendChild(node);
+              all[i].appendChild(node);
           }
-          return definition;
       }
 
       function getProperDefObj ( id ) {
@@ -1016,8 +1013,7 @@
           for (var i=0, max=all.length; i < max; i++) {
               var elem = all[i];
               if ( elem.className == "blockDef" ) {
-                  var elem_id = elem.getAttribute("id");
-                  if ( elem_id == id ) {
+                  if ( elem.getAttribute("id") == id ) {
                       definition = elem;
                       break;
                   }
@@ -1032,7 +1028,6 @@
           for (var i=0, all_max=all.length; i < all_max; i++) {
               var elem = all[i];
               if ( elem.className == 'blockDef' ) {
-                  var children = elem.children;
                   var uses_in_elem = elem.getElementsByTagName("span");
                   for (var j=0, uses_max=uses_in_elem.length; j < uses_max; j++) {
                       var child = uses_in_elem[j];
@@ -1048,20 +1043,19 @@
       }
 
       function getExpandDiv ( elem ) {
-          var rozwin_div = null;
+          var expand_div = null;
           var parent_obj = elem.parentNode;
           while ( parent_obj ) {
               if ( parent_obj.className == 'expandDiv' ) {
-                  rozwin_div = parent_obj;
+                  expand_div = parent_obj;
                   break;
               }
               else if ( parent_obj.localName == 'div' &&
                         parent_obj.className == 'blockDef' ) {
                   var all = parent_obj.getElementsByTagName("div");
                   for (var i=0, all_max=all.length; i < all_max; i++) {
-                      var d_elem = all[i];
-                      if ( d_elem.className == 'expandDiv' ) {
-                          rozwin_div = d_elem;
+                      if ( all[i].className == 'expandDiv' ) {
+                          expand_div = all[i];
                           break;
                       }
                   }
@@ -1070,26 +1064,26 @@
               }
               parent_obj = parent_obj.parentNode;
           }
-          return rozwin_div;
+          return expand_div;
       }
 
       function getUpExpandDiv ( elem ) {
-          var rozwin_div = null;
+          var expand_div = null;
           var parent_obj = elem.parentNode;
           while ( parent_obj ) {
               if ( parent_obj.className == 'expandDiv' ) {
-                  rozwin_div = parent_obj;
+                  expand_div = parent_obj;
                   break;
               }
               parent_obj = parent_obj.parentNode;
           }
-          return rozwin_div;
+          return expand_div;
       }
 
       function closeRecalledDef ( elem ) {
-          var okno = getUpExpandDiv(elem);
-          if ( okno )
-              okno.innerHTML = '';
+          var place = getUpExpandDiv(elem);
+          if ( place )
+              place.innerHTML = '';
           return;
       }
 
@@ -1130,7 +1124,7 @@
                   html += "\n" + getDefHtml(elems[i]);
           }
           else {
-              html += 'NIE JEST UŻYTY W INNYCH DEFINICJACH';
+              html += '<p>NIE JEST UŻYTY W INNYCH DEFINICJACH</p>';
           }
           html += "\n" + '<button onClick="closeRecalledDef(this)">Schowaj</button></div>';
           return html;
@@ -1138,23 +1132,23 @@
 
       function showDef(elem, status=true) {
           var id = elem.innerText;
-          var rozwin_div = getExpandDiv(elem);
-          if ( rozwin_div ) {
-              rozwin_div.innerHTML = '';
+          var expand_div = getExpandDiv(elem);
+          if ( expand_div ) {
+              expand_div.innerHTML = '';
               var target_definition_elem = getProperDefObj(id);
               if  ( target_definition_elem )
-                  rozwin_div.innerHTML = recalledDefHtml(target_definition_elem);
+                  expand_div.innerHTML = recalledDefHtml(target_definition_elem);
           }
       }
 
       function showUse(elem, status=true) {
           var name = elem.innerText;
-          var rozwin_div = getExpandDiv(elem);
-          if ( rozwin_div ) {
-              rozwin_div.innerHTML = '';
+          var expand_div = getExpandDiv(elem);
+          if ( expand_div ) {
+              expand_div.innerHTML = '';
               var definitions = getUsingDefObjs(name);
               if  ( definitions )
-                  rozwin_div.innerHTML = recalledUsingDefHtml(definitions);
+                  expand_div.innerHTML = recalledUsingDefHtml(definitions);
           }
       }
 

@@ -7,7 +7,7 @@ dokumentów elektronicznych,<br/>
 w Notacji Backusa-Naura (BNF)</p>
 </h2>
 
-
+<p align="right"><em>Na skróty: dokument HTML [jest tu:](https://stas53.github.io/tests/nes_bnf.html)</em></p>
 
 ### Środowisko
 
@@ -44,7 +44,7 @@ w postaci schematów produkcji, uzywanych do definiowania
 Notacja Backusa-Naura — BNF.
 
 Dokument
-[nes_bnf.html](http://htmlpreview.github.io/?https://github.com/stas53/ezd-analizy-it/blob/9bc5087944a5437bf56f175cb5ebe71d0cc2d6ac/nes_bnf.html)
+[nes_bnf.html](https://stas53.github.io/tests/nes_bnf.html)
 pokazuje zarówno strukturę danych, jak i ich zapis w tekstowym formacie XML.<br/>
 Na stronie znajduje się dodatkowy przycisk, aktywuący wyświetlenie objaśnień.
 

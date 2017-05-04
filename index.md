@@ -7,7 +7,9 @@ dokumentów elektronicznych,<br/>
 w Notacji Backusa-Naura (BNF)</p>
 </h2>
 
-<p align="right"><em>Na skróty: dokument HTML jest tu: [nes_bnf.html](https://stas53.github.io/tests/nes_bnf.html)</em></p>
+<em>
+<p align="right">Na skróty: dokument HTML jest tu: [nes_bnf.html](https://stas53.github.io/tests/nes_bnf.html)</p>
+</em>
 
 ### Środowisko
 

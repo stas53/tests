@@ -14,7 +14,7 @@ Plan pierwotny:
 - każda instancja miałaby osobny serwer BD
 - jeśli dopuścilibyśmy używanie różnych systemów BD, to mogłoby się okazać, że nie mogą być posadowione na tym samym serwerze (wymaganie zgodności wersji itp.)
 
-![logo](images/bazy_danych_aa.svg)
+![logo](images/bazy_danych_aa.png)
 
 Opinie:
 - specjaliści z NASK zdecydowanie odradzali nam rozwiązanie, w którym jedna baza danych obsługuje kilka instancji (np. wspólna baza Garwolina, Nowego Sącza i Suwałk). Uważają, ze separacja jest bardzo korzystna, gdyż wszelkie problemy pojawiające się w jakiejś bazie nie infekują baz innych uzytkowników.
@@ -22,7 +22,7 @@ Opinie:
 
 A może ?
 
-![logo](images/bazy_danych_bb.svg)
+![logo](images/bazy_danych_bb.png)
 
 
 ### 2. PostgreSql czy MySql ?

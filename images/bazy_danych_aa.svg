@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1321" height="490" id="exportedSVG" version="1.1" pencil:version="1.2.2" xmlns:pencil="http://www.evolus.vn/Namespace/Pencil" sodipodi:docname="bazy_danych_aa.ep" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"><g inkscape:label="Untitled Page" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:groupmode="layer" id="layer_untitled_page"><g><rect x="0" y="0" width="1321" height="1321" fill="none"/><g pencil:type="Shape" pencil:def="Evolus.Common:RectWithGradient" id="ba51e68a9dfb4c43a5f92fedefb1b589" transform="matrix(1,0,0,1,202,229)"><pencil:metadata><pencil:property name="box">1066,80</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,5</pencil:property><pencil:property name="startFillColor">#2F5F8FFF</pencil:property><pencil:property name="endFillColor">#54AAFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" pencil:name="linearFill" id="e492aebf58fd42bc83740eaf56269df0">
+                    <stop style="stop-color: rgb(47, 95, 143); stop-opacity: 1;" offset="0" pencil:name="stop1" id="2502aafc9404463a8ca2f3abdb2d91fc"/>
+                    <stop style="stop-color: rgb(84, 170, 255); stop-opacity: 1;" offset="1" pencil:name="stop2" id="58de72e82481496f9b34b6174587e621"/>
+                </linearGradient>
+                <rect width="1066" height="80" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: url(&quot;#e492aebf58fd42bc83740eaf56269df0&quot;) none; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="c0ad223d78c642788837d6831ad0d10f" transform="translate(0,0)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="015a80f9a86f4e0e98afb343ff2ccfb0">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#c0ad223d78c642788837d6831ad0d10f" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#015a80f9a86f4e0e98afb343ff2ccfb0)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="bf832ba761db4295be63aec633ea10eb"/>
+            <use xlink:href="#c0ad223d78c642788837d6831ad0d10f" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="5" y="40" width="1056" height="0" pencil:name="text" id="30c75d5313954d10af8ea393d288bfeb" style="font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="c47d424bdfa44f4fbedc90a4e1ceca18" transform="matrix(1,0,0,1,317,40)"><pencil:metadata><pencil:property name="box">306,116</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,14.500000000000002</pencil:property><pencil:property name="fillColor">#CCFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="304" height="114" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(204, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="4bf05b563ba14957b918a540528864c2" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="3636c4690a294dcc977395306fa31f77">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#4bf05b563ba14957b918a540528864c2" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#3636c4690a294dcc977395306fa31f77)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="fd079715b97847679e66fe55f4c5b955"/>
+            <use xlink:href="#4bf05b563ba14957b918a540528864c2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="14.5" y="58" width="277" height="0" pencil:name="text" id="be831b30573b4479a26888f7d29c4d1e" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="4809dd060fff4fe098c9a20a4e6b5c00" transform="matrix(1,0,0,1,331,71)"><pencil:metadata><pencil:property name="box">23,37</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,4.625</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="21" height="35" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="577dd5b1f6374bc7a4d63e129fb17d8a" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="154635a2a866480b8d2b3ae5aa8e1c41">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#577dd5b1f6374bc7a4d63e129fb17d8a" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#154635a2a866480b8d2b3ae5aa8e1c41)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="e6eb9d2a0dd642a7a0f2cd822524c484"/>
+            <use xlink:href="#577dd5b1f6374bc7a4d63e129fb17d8a" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="4.625" y="19" width="13.75" height="0" pencil:name="text" id="da00235134424f1fa1a48b83230ec361" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:PlainTextV2" id="b239696daf9f4d808a9807b1243060b3" transform="matrix(1,0,0,1,331,92)"><pencil:metadata><pencil:property name="disabled">false</pencil:property><pencil:property name="width">100,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="label">SD</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textAlign">0,0</pencil:property></pencil:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" pencil:name="bgRect" id="bb29def1750543bb83f7cf9519ffe0d0" width="0" height="0"/>
+            <text xml:space="preserve" pencil:name="text" id="85c08ae3c24143dcbcc572043d6a3915" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">SD</tspan></text>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="bfdc274665fb46e9be296697f22bc991" transform="matrix(1,0,0,1,440,52)"><pencil:metadata><pencil:property name="box">42,31</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3.8749999999999996</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="40" height="29" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="63545fd62d764c27899629483250a3d7" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="1565aaaadcd349c397fa9333ce328aa0">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#63545fd62d764c27899629483250a3d7" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#1565aaaadcd349c397fa9333ce328aa0)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="6b41b9650e8448c28612dc51ad1973e0"/>
+            <use xlink:href="#63545fd62d764c27899629483250a3d7" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3.875" y="16" width="34.25" height="0" pencil:name="text" id="5c70bb70fc544f4297f6cc0539e42952" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:PlainTextV2" id="80ed9532060b4611be1b9c2ba9719d03" transform="matrix(1,0,0,1,451,73)"><pencil:metadata><pencil:property name="disabled">false</pencil:property><pencil:property name="width">100,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="label">SA</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textFont">sans-serif|normal|normal|16px|none</pencil:property><pencil:property name="textAlign">0,0</pencil:property></pencil:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" pencil:name="bgRect" id="7fd6aaacf1d14866b5d3e61f15fb3999" width="0" height="0"/>
+            <text xml:space="preserve" pencil:name="text" id="bf3b3fab9fa54baeb56ef912ba39d37c" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: sans-serif; font-size: 16px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">SA</tspan></text>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="cb986844caec40aaad563e97e688f653" transform="matrix(1,0,0,1,497,91)"><pencil:metadata><pencil:property name="box">42,23</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,2.8749999999999996</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="40" height="21" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="925f4059cd3343d2bcc0b854651aede7" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="10ed8159285a44a796071d637e533b61">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#925f4059cd3343d2bcc0b854651aede7" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#10ed8159285a44a796071d637e533b61)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="8c62eb83e0114180be6a3e715cc8cbb2"/>
+            <use xlink:href="#925f4059cd3343d2bcc0b854651aede7" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="2.875" y="12" width="36.25" height="0" pencil:name="text" id="0cf2aaff33e74b55bdef6b70ff7433ee" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:PlainTextV2" id="43181119cbdd4fb9a5c3c1c5991b639f" transform="matrix(1,0,0,1,508,111)"><pencil:metadata><pencil:property name="disabled">false</pencil:property><pencil:property name="width">100,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="label">SA</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textFont">sans-serif|normal|normal|16px|none</pencil:property><pencil:property name="textAlign">0,0</pencil:property></pencil:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" pencil:name="bgRect" id="f310e416c25b4c31a9e8d74db3141796" width="0" height="0"/>
+            <text xml:space="preserve" pencil:name="text" id="0cc4c6d0049640a7be775bdb13b36725" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: sans-serif; font-size: 16px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">SA</tspan></text>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:can" id="08810a4eb705475d98076a66ccc67cf7" transform="matrix(1,0,0,1,559,87)"><pencil:metadata><pencil:property name="a">23.5,8.4</pencil:property><pencil:property name="box">47,42</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;" pencil:name="top" id="e24252a68daa4eeabed76eebcb82db9d" transform="translate(0,0)" d="M 0 4.2 C 0 2.1 11.75 0 23.5 0 S 47 2.1 47 4.2 C 47 6.300000000000001 35.25 8.4 23.5 8.4 S 0 6.300000000000001 0 4.2 z"/>
+                <mask pencil:name="mask" id="9b81a56da04949a99a14364012a57bbc">
+                    <rect style="fill: white; stroke-linejoin: round; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;" pencil:name="markContainer" id="ea3a1a3a40ce4b528cec0f1442ba0452" transform="translate(0,0)" x="-100" y="-100" width="247" height="242"/>
+                    <use xlink:href="#e24252a68daa4eeabed76eebcb82db9d" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill: black; stroke-linejoin: round;"/>
+                </mask>
+            </defs>
+            <path mask="url(#9b81a56da04949a99a14364012a57bbc)" style="stroke-linejoin: round; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1;" pencil:name="path" id="4db9cdfa2e364052b6157393adcd9441" transform="translate(0,0)" d="M 0 4.2 L 0 37.8 C 0 39.9 11.75 42 23.5 42 S 47 39.9 47 37.8 L 47 4.2 z"/>
+            <use xlink:href="#e24252a68daa4eeabed76eebcb82db9d" xmlns:xlink="http://www.w3.org/1999/xlink" style="stroke-linejoin: round; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1;" pencil:name="btop" id="fba08d2f15d749498c8d847902427c15" transform="translate(0,0)"/>
+            <text pencil:name="text" id="a8b59784be944af8976e06b47f03aac3" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(24,25)"/>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RichTextBoxV2" id="edc98a0b2ba8475e93b4a3e301df6b70" transform="matrix(1,0,0,1,569,104)"><pencil:metadata><pencil:property name="width">200,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="textContent">SBD</pencil:property><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="customStyle">
+                </pencil:property></pencil:metadata>
+
+            <foreignObject x="0" y="0" width="27" height="14" pencil:name="htmlObject" id="3b657070a5f94b5a8fc2dbb12709ba9c" style="color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" pencil:name="textDiv" id="223a241473d74bea8266f4f0374a0797" style="display: inline-block; white-space: nowrap; text-decoration: none;"><div>SBD</div></div>
+            </foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="5fc150d72d2448e7a798e79cd93b66e5" transform="matrix(1,0,0,1,353,83)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="bfdc274665fb46e9be296697f22bc991" pencil:connectedOutletId="middle-left" pencil:viax="77" pencil:viay="-15.5">87,-15</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="890e26c139a143c48b8937bcd319ceb1" d="M 3 -7 L 0 0 L -3 -7 M 0 0 C 0 -44 43 -17 87 -15 M 80 -18 L 87 -15 L 79 -12"/>
+            </defs>
+            <use xlink:href="#890e26c139a143c48b8937bcd319ceb1" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#890e26c139a143c48b8937bcd319ceb1" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="3304eb9787f141caa1cd1f4c9672ed7c" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text pencil:name="text" id="f8f650797d1b4a61892d708076e28609" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#890e26c139a143c48b8937bcd319ceb1" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="af79b2e693a142eaa649aab02d077234" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="64f7282d05364bd1a4560fd8e7925a2f" transform="matrix(1,0,0,1,403,38)"><pencil:metadata><pencil:property name="startPin" pencil:viay="51.5" pencil:viax="-39" pencil:connectedOutletId="middle-right" pencil:connectedShapeId="4809dd060fff4fe098c9a20a4e6b5c00">-49,51.5</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="cb986844caec40aaad563e97e688f653" pencil:connectedOutletId="middle-left" pencil:viax="84" pencil:viay="64.5">94,65</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="357186b7e41442b5809e8f98cdfb808e" d="M -42 55 L -49 51.5 L -41 49 M -49 51.5 C 11 54 34 62 94 65 M 87 62 L 94 65 L 86 68"/>
+            </defs>
+            <use xlink:href="#357186b7e41442b5809e8f98cdfb808e" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#357186b7e41442b5809e8f98cdfb808e" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="3f64b783c89f41289af1806a75c69b4c" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text pencil:name="text" id="5c3e6432eb87410680a7389a0e2a5d8e" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#357186b7e41442b5809e8f98cdfb808e" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="3ce37fb194fe4c8ebab4e2a9ccdc55bc" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="bbf1beada3d046d2b093e43681b0b3fe" transform="matrix(1,0,0,1,484,72)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin">115,18</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="638e75434e01487c96b6cadbdc16ff35" d="M 7 4 L 0 0 L 8 -2 M 0 0 C 57 11 57 9 115 18 M 108 14 L 115 18 L 107 20"/>
+            </defs>
+            <use xlink:href="#638e75434e01487c96b6cadbdc16ff35" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#638e75434e01487c96b6cadbdc16ff35" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="c18ac4caf7ae4da49938830691683532" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text pencil:name="text" id="c99612dfb75e454f93eeed6cfb6b537e" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#638e75434e01487c96b6cadbdc16ff35" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="0d0ff94f1f864baa9ebbc23aec3f1af6" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="8846c2e63dd040cdb44877d7c7a4f923" transform="matrix(1,0,0,1,539,108)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:viay="0" pencil:viax="10" pencil:connectedOutletId="middle-left" pencil:connectedShapeId="08810a4eb705475d98076a66ccc67cf7">20,0</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="0250a735eeb445098e08bec09698258a" d="M NaN NaN L 0 0 L NaN NaN M 0 0 C NaN NaN -10 0 20 0 M 13 -3 L 20 0 L 13 3"/>
+            </defs>
+            <use xlink:href="#0250a735eeb445098e08bec09698258a" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#0250a735eeb445098e08bec09698258a" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="d5acf20697664b4f846827e7906d1fca" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text pencil:name="text" id="812073a61ecc410f8ba56e5116e9378c" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#0250a735eeb445098e08bec09698258a" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="ddb7d236629d44e8bf9094d5f397e033" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="06041fd93d8e42249370baf9ceda7daa" transform="matrix(1,0,0,1,354,104)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="08810a4eb705475d98076a66ccc67cf7" pencil:connectedOutletId="bottom-center" pencil:viax="228.5" pencil:viay="35">229,25</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="6bf24afbe52f431294c87b66b4a6bcd9" d="M 7 3 L 0 0 L 7 -3 M 0 0 C 60 0 226 85 229 25 M 226 32 L 229 25 L 232 33"/>
+            </defs>
+            <use xlink:href="#6bf24afbe52f431294c87b66b4a6bcd9" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#6bf24afbe52f431294c87b66b4a6bcd9" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="4bd7a1eb3f1243d597117c37eb4210da" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text pencil:name="text" id="16bceecce3e949e59a5dc8d9902afc58" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#6bf24afbe52f431294c87b66b4a6bcd9" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="d4160f7e76f74471b92023712706fd2f" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="14e44f6eedfe4639bc579dbff3517839" transform="matrix(1,0,0,1,542,105)"><pencil:metadata><pencil:property name="startPin" pencil:connectedShapeId="cb986844caec40aaad563e97e688f653" pencil:connectedOutletId="bottom-center" pencil:viax="-24" pencil:viay="19">-24,9</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="08810a4eb705475d98076a66ccc67cf7" pencil:connectedOutletId="middle-left" pencil:viax="7" pencil:viay="3">17,3</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="311664284e294f08a90be573a2d7000e" d="M -27 16 L -24 9 L -21 16 M -24 9 C -24 39 -13 3 17 3 M 10 0 L 17 3 L 10 6"/>
+            </defs>
+            <use xlink:href="#311664284e294f08a90be573a2d7000e" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#311664284e294f08a90be573a2d7000e" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="e686c694ecf14034bfa7a04078bbc08d" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text pencil:name="text" id="e8eafeff61f34d1b8b306b328f4973f3" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#311664284e294f08a90be573a2d7000e" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="25de68b5713341bca35e9870df36eef3" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="614cfd88b5014d5399a3aad8926ce7e2" transform="matrix(1,0,0,1,801,12)"><pencil:metadata><pencil:property name="box">306,145</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,18.125000000000004</pencil:property><pencil:property name="fillColor">#CCFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="304" height="143" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(204, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="47f4a796c5d54a07be52f917a56d36e7" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="13f3da451abd4efb9a7fc0706a5adaef">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#47f4a796c5d54a07be52f917a56d36e7" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#13f3da451abd4efb9a7fc0706a5adaef)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="19ebebb8b67e470ba12340b5d100bc32"/>
+            <use xlink:href="#47f4a796c5d54a07be52f917a56d36e7" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="18.125" y="73" width="269.75" height="0" pencil:name="text" id="987f6c309a8943eead238a3692623850" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="1aae638e856047b2ace23088bd0a5e44" transform="matrix(1,0,0,1,815,72)"><pencil:metadata><pencil:property name="box">23,37</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,4.625</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="21" height="35" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="53d547c452b2498b99cc9193a6ab6a30" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="eb4012b35e854443aaae91da6a46cfad">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#53d547c452b2498b99cc9193a6ab6a30" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#eb4012b35e854443aaae91da6a46cfad)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="23ed629dbb324cc6bba8e98e46727098"/>
+            <use xlink:href="#53d547c452b2498b99cc9193a6ab6a30" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="4.625" y="19" width="13.75" height="0" pencil:name="text" id="76330bdbefde473092c98f60996826c2" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:PlainTextV2" id="27581619d4cc49dd90cb9d0409fd5c9a" transform="matrix(1,0,0,1,815,93)"><pencil:metadata><pencil:property name="disabled">false</pencil:property><pencil:property name="width">100,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="label">SD</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textAlign">0,0</pencil:property></pencil:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" pencil:name="bgRect" id="ce98920f324446ee809a5bf29ad6c594" width="0" height="0"/>
+            <text xml:space="preserve" pencil:name="text" id="4d8292ca05e9487f8a0d872dfb7ae0ea" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">SD</tspan></text>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="99b2d5bacddd410d9481a2ee41c75c53" transform="matrix(1,0,0,1,924,53)"><pencil:metadata><pencil:property name="box">42,31</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3.8749999999999996</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="40" height="29" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="1ce670198fd341c9b449c778e562f062" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="ff43810b48784689b0e89a93ca164d93">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#1ce670198fd341c9b449c778e562f062" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#ff43810b48784689b0e89a93ca164d93)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="da41bf83e5a84861bf7196427404d8fb"/>
+            <use xlink:href="#1ce670198fd341c9b449c778e562f062" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3.875" y="16" width="34.25" height="0" pencil:name="text" id="3fae19055a9748488b8421784c1e8843" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:PlainTextV2" id="0711706e3af440dcb97bf1658896291e" transform="matrix(1,0,0,1,935,74)"><pencil:metadata><pencil:property name="disabled">false</pencil:property><pencil:property name="width">100,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="label">SA</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textFont">sans-serif|normal|normal|16px|none</pencil:property><pencil:property name="textAlign">0,0</pencil:property></pencil:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" pencil:name="bgRect" id="a12ae4ce10064b3aa597b6dfeacd8820" width="0" height="0"/>
+            <text xml:space="preserve" pencil:name="text" id="f5baf0f9cc4e471f9e83f76adee95fe9" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: sans-serif; font-size: 16px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">SA</tspan></text>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="6177fb16a1a946c3917743b7d23fe438" transform="matrix(1,0,0,1,981,92)"><pencil:metadata><pencil:property name="box">42,23</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,2.8749999999999996</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="40" height="21" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="d7bc62729258427784ba6ac75b7a0ac3" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="cab2edfd1bea44ca87da4e6c45dc8152">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#d7bc62729258427784ba6ac75b7a0ac3" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#cab2edfd1bea44ca87da4e6c45dc8152)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="148276f8acc141f380327228ab778cdd"/>
+            <use xlink:href="#d7bc62729258427784ba6ac75b7a0ac3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="2.875" y="12" width="36.25" height="0" pencil:name="text" id="a5bed05247684ed39571a79d2860b2b1" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:PlainTextV2" id="3ec9955b2a5b4212971e2cdbb59ee1e4" transform="matrix(1,0,0,1,992,112)"><pencil:metadata><pencil:property name="disabled">false</pencil:property><pencil:property name="width">100,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="label">SA</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textFont">sans-serif|normal|normal|16px|none</pencil:property><pencil:property name="textAlign">0,0</pencil:property></pencil:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" pencil:name="bgRect" id="27c4c7569e014abb8ecdf908e16b6516" width="0" height="0"/>
+            <text xml:space="preserve" pencil:name="text" id="ded54a9118594fe0b45b8fdcb8a88426" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: sans-serif; font-size: 16px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">SA</tspan></text>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:can" id="b00d6aae071f4d3aa3a14c4ee3912fe5" transform="matrix(1,0,0,1,1043,88)"><pencil:metadata><pencil:property name="a">23.5,8.4</pencil:property><pencil:property name="box">47,42</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;" pencil:name="top" id="3517fc7fee624d8ab752fbada7098cb2" transform="translate(0,0)" d="M 0 4.2 C 0 2.1 11.75 0 23.5 0 S 47 2.1 47 4.2 C 47 6.300000000000001 35.25 8.4 23.5 8.4 S 0 6.300000000000001 0 4.2 z"/>
+                <mask pencil:name="mask" id="02a3e403559f48f09315763b20cb30a5">
+                    <rect style="fill: white; stroke-linejoin: round; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;" pencil:name="markContainer" id="77b747f9f59248cc93b472c5448cfead" transform="translate(0,0)" x="-100" y="-100" width="247" height="242"/>
+                    <use xlink:href="#3517fc7fee624d8ab752fbada7098cb2" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill: black; stroke-linejoin: round;"/>
+                </mask>
+            </defs>
+            <path mask="url(#02a3e403559f48f09315763b20cb30a5)" style="stroke-linejoin: round; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1;" pencil:name="path" id="d5de17cad3d64e8c91aba7123166b044" transform="translate(0,0)" d="M 0 4.2 L 0 37.8 C 0 39.9 11.75 42 23.5 42 S 47 39.9 47 37.8 L 47 4.2 z"/>
+            <use xlink:href="#3517fc7fee624d8ab752fbada7098cb2" xmlns:xlink="http://www.w3.org/1999/xlink" style="stroke-linejoin: round; stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1;" pencil:name="btop" id="dfc913d1bdd046f59c0b412c801d0cd8" transform="translate(0,0)"/>
+            <text pencil:name="text" id="ff1be5f024194b0dba7bf3525115d2b4" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(24,25)"/>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RichTextBoxV2" id="543c612d75f943b69c1e2a50696fb1d7" transform="matrix(1,0,0,1,1053,105)"><pencil:metadata><pencil:property name="width">200,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="textContent">SBD</pencil:property><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="customStyle">
+                </pencil:property></pencil:metadata>
+
+            <foreignObject x="0" y="0" width="27" height="14" pencil:name="htmlObject" id="624591c368b7414e8290fad8162a2e92" style="color: rgb(0, 0, 0); opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" pencil:name="textDiv" id="e1d1cf3d0c41446895c9fde28ce91e99" style="display: inline-block; white-space: nowrap; text-decoration: none;"><div>SBD</div></div>
+            </foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="87ada50c5bd14b4a978430b18a9d71b2" transform="matrix(1,0,0,1,887,39)"><pencil:metadata><pencil:property name="startPin" pencil:connectedShapeId="4809dd060fff4fe098c9a20a4e6b5c00" pencil:connectedOutletId="middle-right" pencil:viax="-523" pencil:viay="50.5">-533,50.5</pencil:property><pencil:property name="endPin" pencil:viay="63.5" pencil:viax="-400" pencil:connectedOutletId="middle-left" pencil:connectedShapeId="cb986844caec40aaad563e97e688f653">-390,63.5</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="65c0d97c53f24e0b9b749cf44e32f1de" d="M -526 54 L -533 50.5 L -525 48 M -533 50.5 C -473 53 -450 64 -390 63.5 M -397 60 L -390 63.5 L -397 67"/>
+            </defs>
+            <use xlink:href="#65c0d97c53f24e0b9b749cf44e32f1de" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#65c0d97c53f24e0b9b749cf44e32f1de" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="ebfa74bed5664edf9e5c46763e2f56fe" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text pencil:name="text" id="69a38763a45646e183cd7f39e16eb553" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#65c0d97c53f24e0b9b749cf44e32f1de" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="ecfda24e88044503b1af06ce5fefef7d" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="6bbd549d9d944304b0e79f94efc44e8f" transform="matrix(1,0,0,1,966,71)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin">115,18</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="6c80299a0f9e42f4b5a5d79be03a0442" d="M 7 4 L 0 0 L 8 -2 M 0 0 C 57 11 57 9 115 18 M 108 14 L 115 18 L 107 20"/>
+            </defs>
+            <use xlink:href="#6c80299a0f9e42f4b5a5d79be03a0442" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#6c80299a0f9e42f4b5a5d79be03a0442" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="9e3a9d83feaf4c2dbc63dc98faf5746c" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text pencil:name="text" id="5e06be61187d41d5b642d5c92bfd51b6" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#6c80299a0f9e42f4b5a5d79be03a0442" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="79bb1b964f9f45a3b49960ac29a61d02" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="bdf8d2ab17c748358a198c7ad87cc8e2" transform="matrix(1,0,0,1,826,70)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:viay="-1.5" pencil:viax="88" pencil:connectedOutletId="middle-left" pencil:connectedShapeId="99b2d5bacddd410d9481a2ee41c75c53">98,-1.5</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="824b0a771ae2472aaa40272b20eb6216" d="M 3 -7 L 0 0 L -3 -7 M 0 0 C 0 -49 49 -1 98 -1.5 M 91 -5 L 98 -1.5 L 91 2"/>
+            </defs>
+            <use xlink:href="#824b0a771ae2472aaa40272b20eb6216" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#824b0a771ae2472aaa40272b20eb6216" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="010f7eea91c94c86bb3386f210e37c59" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text pencil:name="text" id="8a4a83767a68468e8017febadaaf2e05" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#824b0a771ae2472aaa40272b20eb6216" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="e07d75e34f2745129b298d8f89d563b8" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="34bf4a985ca842758acd02ca4e34d74d" transform="matrix(1,0,0,1,1026,106)"><pencil:metadata><pencil:property name="startPin" pencil:viay="18" pencil:viax="-508" pencil:connectedOutletId="bottom-center" pencil:connectedShapeId="cb986844caec40aaad563e97e688f653">-508,8</pencil:property><pencil:property name="endPin" pencil:viay="2" pencil:viax="-477" pencil:connectedOutletId="middle-left" pencil:connectedShapeId="08810a4eb705475d98076a66ccc67cf7">-467,2</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="c54455b0223e41cfadda6cae05664df0" d="M -511 15 L -508 8 L -505 15 M -508 8 C -508 38 -497 2 -467 2 M -474 -1 L -467 2 L -474 5"/>
+            </defs>
+            <use xlink:href="#c54455b0223e41cfadda6cae05664df0" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#c54455b0223e41cfadda6cae05664df0" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="f0a41ff05ce445f1a2770c60236b4f01" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text pencil:name="text" id="997b0ed099ee418c995ee5fbb0ec5466" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#c54455b0223e41cfadda6cae05664df0" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="93ac6563d26249469775aa47bdef61cf" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="9508c16d09d24e588935c0edc5d8799b" transform="matrix(1,0,0,1,826,108)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="6177fb16a1a946c3917743b7d23fe438" pencil:connectedOutletId="middle-left" pencil:viax="145" pencil:viay="-4.5">155,-4</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="a7b8479505854e0b8cdbb04f1c304dc8" d="M 3 -7 L 0 0 L -3 -7 M 0 0 C 0 -60 95 -7 155 -4 M 148 -7 L 155 -4 L 147 -1"/>
+            </defs>
+            <use xlink:href="#a7b8479505854e0b8cdbb04f1c304dc8" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#a7b8479505854e0b8cdbb04f1c304dc8" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="4a4aefaac745481e8faed6a2ee8c8b41" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text pencil:name="text" id="dfd1f1ff62834814aa164c239f0c67c1" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#a7b8479505854e0b8cdbb04f1c304dc8" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="50c20c32fc12475e8a3eb1bdf25db373" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="5ef2b7a7abf3454f949401be3db1cb05" transform="matrix(1,0,0,1,1001,116)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="b00d6aae071f4d3aa3a14c4ee3912fe5" pencil:connectedOutletId="bottom-left" pencil:viax="34.543438993828204" pencil:viay="20.663309835302456">42,14</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="63c2ac7a02c0430db7bc206b1bba3643" d="M -3 7 L 0 0 L 3 7 M 0 0 C 0 30 20 34 42 14 M 34 17 L 42 14 L 39 21"/>
+            </defs>
+            <use xlink:href="#63c2ac7a02c0430db7bc206b1bba3643" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#63c2ac7a02c0430db7bc206b1bba3643" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="9c60c51bd8f1452385c5ae1d3ba10ab2" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text pencil:name="text" id="1b66255cb7064640b6d31f110fb30de4" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#63c2ac7a02c0430db7bc206b1bba3643" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="c42326e9eca74dba824f4031d803d6ce" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="c72303ed10614eceb6ddaf9d05b1c847" transform="matrix(1,0,0,1,286,267)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="0208c4240201410e8930b44482685158" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="108f50be29664dcda2489c295294b1c1">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#0208c4240201410e8930b44482685158" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#108f50be29664dcda2489c295294b1c1)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="260adbfaf24b4b399b9603fb55453635"/>
+            <use xlink:href="#0208c4240201410e8930b44482685158" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="3468193b6d87407d997c71a4b2d81ec6" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="90a05719bc5542289de6f442d9f1e57a" transform="matrix(1,0,0,1,362,257)"><pencil:metadata><pencil:property name="box">26,23</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,2.875</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="21" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="d3c504a8f0cd41a081e16f6069d1ebf6" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="a429211753ea4e2aa594c182205cf8dd">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#d3c504a8f0cd41a081e16f6069d1ebf6" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#a429211753ea4e2aa594c182205cf8dd)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="be4a515aabf2437d85e842222ab855fa"/>
+            <use xlink:href="#d3c504a8f0cd41a081e16f6069d1ebf6" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="2.875" y="12" width="20.25" height="0" pencil:name="text" id="ddc2e57be6d9409c8d1089659efcc06e" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="cfe3dbc2ea414b0ca81633fe9931047a" transform="matrix(1,0,0,1,445,267)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="81ff7a9d21054c95af818444ad24a6e9" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="8f5c123597894b358b859544f2877839">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#81ff7a9d21054c95af818444ad24a6e9" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#8f5c123597894b358b859544f2877839)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="01b95363bd8d4d3b94b13f7a8c8db9fd"/>
+            <use xlink:href="#81ff7a9d21054c95af818444ad24a6e9" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="1626cc0ed6544c3082eef27136c43afc" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="62b2a397bce44a21a2ccce3de8790114" transform="matrix(1,0,0,1,501,276)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="4bb64605bacd4f159841830afc0c35a1" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="0af0743e5bd940b7a86ed072f9cbcdee">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#4bb64605bacd4f159841830afc0c35a1" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#0af0743e5bd940b7a86ed072f9cbcdee)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="8a87e36ac15b44e68136388728065df5"/>
+            <use xlink:href="#4bb64605bacd4f159841830afc0c35a1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="408abe9aa76045a1ba804aafedf660ce" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="d5a122fe02a6496ba5b553c944777564" transform="matrix(1,0,0,1,569,267)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="ae2c48a3fd5a40eeb48addade4928416" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="7f4c457f0f514756b920fb06ff9bbe44">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#ae2c48a3fd5a40eeb48addade4928416" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#7f4c457f0f514756b920fb06ff9bbe44)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="112282ee389748c8ad1feffa45cc1419"/>
+            <use xlink:href="#ae2c48a3fd5a40eeb48addade4928416" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="8dd4d538cbc34170869c8869ea091b07" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="4a12cfd1abec4133a227f7cb6ae7b232" transform="matrix(1,0,0,1,666,250)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="59e6156bd56a44439934ce137859d089" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="b192f04da52e4416babdc1194db70e01">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#59e6156bd56a44439934ce137859d089" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#b192f04da52e4416babdc1194db70e01)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="4ab2c5c542004ae991a2704eb2e29a87"/>
+            <use xlink:href="#59e6156bd56a44439934ce137859d089" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="7e5f92c3e72a44c988920f6e3933e894" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="1e4c727853ce41cc928e96c6dc8f6d19" transform="matrix(1,0,0,1,741,276)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="a15bc48f20554964a2791fad43c66e16" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="0683fb00ce594695a4c99f0c98683cce">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#a15bc48f20554964a2791fad43c66e16" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#0683fb00ce594695a4c99f0c98683cce)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="dff4eb5e3d874cd8883d23895808e109"/>
+            <use xlink:href="#a15bc48f20554964a2791fad43c66e16" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="04d04286e58646a6bc29ccecf3978377" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="026cffa42380475c9b39d6d1cc1f30f4" transform="matrix(1,0,0,1,807,257)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="2a1ee007250b47d395dfec66672eae2c" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="ed75f3e87e7046309c8f0a32163d6b23">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#2a1ee007250b47d395dfec66672eae2c" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#ed75f3e87e7046309c8f0a32163d6b23)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="5aaeff0644ec488eaf9cc17f6aadb087"/>
+            <use xlink:href="#2a1ee007250b47d395dfec66672eae2c" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="94be140ebd374f10b821bc1c218bac12" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="cd6a99c7e7214e5fbdf7df465c2c1976" transform="matrix(1,0,0,1,889,281)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="62a6be1ac82b47d0ada8a6d6ffec473b" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="0d9d303006014ccf9b401f562fbd22f0">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#62a6be1ac82b47d0ada8a6d6ffec473b" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#0d9d303006014ccf9b401f562fbd22f0)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="a6ae93530ce742b6a168872a7ad992b4"/>
+            <use xlink:href="#62a6be1ac82b47d0ada8a6d6ffec473b" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="42d69b49f0fb44ba9754baa7ddd4649e" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="8f9a3ea730e34a369f760bb6d0028765" transform="matrix(1,0,0,1,941,257)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="237e636635964f0c8e1c46608b1d6086" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="d42d89d136b843c8928b0e052873dea5">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#237e636635964f0c8e1c46608b1d6086" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#d42d89d136b843c8928b0e052873dea5)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="ee4dc129057a474a8695957d13412ae7"/>
+            <use xlink:href="#237e636635964f0c8e1c46608b1d6086" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="afc6965cb802429e9a86c2d71bacf3fd" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="3915ce6d62754c4092684402f0f80173" transform="matrix(1,0,0,1,334,101)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:viay="156" pencil:viax="-35" pencil:connectedOutletId="top-center" pencil:connectedShapeId="c72303ed10614eceb6ddaf9d05b1c847">-35,166</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#CC66CCFF</pencil:property><pencil:property name="strokeStyle">2|5,5</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="10e718dc12b84c4cac21b91278869b3c" d="M -7 -3 L 0 0 L -7 3 M 0 0 C -60 0 -35 106 -35 166 M -32 159 L -35 166 L -38 159"/>
+            </defs>
+            <use xlink:href="#10e718dc12b84c4cac21b91278869b3c" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#10e718dc12b84c4cac21b91278869b3c" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="dd75044f8bbd42429171db81e3ce02fd" style="stroke: rgb(204, 102, 204); stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 5, 5;"/>
+            <text pencil:name="text" id="7beeee96a76448dfbdaf5bcccdf89fba" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#10e718dc12b84c4cac21b91278869b3c" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="fdfb1bbe48fe4e58a0b9822ff3d11f7e" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="02b4306cf0ce4fb3a3580b7e3c5451b2" transform="matrix(1,0,0,1,451,74)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="90a05719bc5542289de6f442d9f1e57a" pencil:connectedOutletId="middle-center">-76,195</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#CC66CCFF</pencil:property><pencil:property name="strokeStyle">2|5,5</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="1e0ae3a78d1d4966a32bf7b147a01c83" d="M -6 6 L 0 0 L 0 8 M 0 0 C -24 55 -54 139 -76 195 M -70 189 L -76 195 L -76 187"/>
+            </defs>
+            <use xlink:href="#1e0ae3a78d1d4966a32bf7b147a01c83" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#1e0ae3a78d1d4966a32bf7b147a01c83" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="cee9097e272c429abb67f888408c4cb1" style="stroke: rgb(204, 102, 204); stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 5, 5;"/>
+            <text pencil:name="text" id="4e7c91ec17b64cd78d828abae8174ab2" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#1e0ae3a78d1d4966a32bf7b147a01c83" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="2eee61c5153c4d358603c2a2aa1b4579" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="c072c3591d3b45eca0f4856e2734a62c" transform="matrix(1,0,0,1,989,281)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="13ea75a522c6487b847c22789550dd63" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="5a798a2ecbb24c91a36357005d746e3b">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#13ea75a522c6487b847c22789550dd63" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#5a798a2ecbb24c91a36357005d746e3b)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="670d60ddfc254452a258380b24c6adc1"/>
+            <use xlink:href="#13ea75a522c6487b847c22789550dd63" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="945a64104fba46d79be6ac366a081519" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="060f16fad27442029f8bc3f26acbd25f" transform="matrix(1,0,0,1,1053,250)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="471b8bc7e02c4bc68919a03d9f64ebea" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="afd70bda45c84c7e87b1b2f295757ce8">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#471b8bc7e02c4bc68919a03d9f64ebea" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#afd70bda45c84c7e87b1b2f295757ce8)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="99428bcaac0b40aca4a3a0af88b7fb63"/>
+            <use xlink:href="#471b8bc7e02c4bc68919a03d9f64ebea" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="a4c2e9a3b80549c0bbb6f8f83bacf898" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="7b7a0e702abe4c9f8aee3ac12c711d34" transform="matrix(1,0,0,1,1105,281)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="f71d6fd75ffc4dcdb38370019a9d0f56" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="3edbc2e6d2874afaa6a6dc96f47fcb36">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#f71d6fd75ffc4dcdb38370019a9d0f56" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#3edbc2e6d2874afaa6a6dc96f47fcb36)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="53aae03fd7d84a6ba7de5791b342c32c"/>
+            <use xlink:href="#f71d6fd75ffc4dcdb38370019a9d0f56" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="734a9ae7fc3343b4b7370ae4f8cf7e55" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="975c801db4bc47cc95185b033e994bc1" transform="matrix(1,0,0,1,1159,256)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="7da2e24ef6794014b9b92c4a5bd187c7" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="42ebfde6d26c463ab89ae1a37976b633">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#7da2e24ef6794014b9b92c4a5bd187c7" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#42ebfde6d26c463ab89ae1a37976b633)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="9faf77f01f54449bb0c0cce565cf52f2"/>
+            <use xlink:href="#7da2e24ef6794014b9b92c4a5bd187c7" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="5f3992bdcd5c472082b155ed26073bd1" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="49ddc8a973ef4dc1ace37ed6e4d0173a" transform="matrix(1,0,0,1,286,267)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="d44e0516c74848d981b269be9415ad3e" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="52e8e7a4e6a8449da2c5eeea03fed3c4">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#d44e0516c74848d981b269be9415ad3e" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#52e8e7a4e6a8449da2c5eeea03fed3c4)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="43c5ef9684b44308b4ffac555052cb64"/>
+            <use xlink:href="#d44e0516c74848d981b269be9415ad3e" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="1d3103a673584a0e8dcad302ff9d5471" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="a85c754932664abb890a83888be5089f" transform="matrix(1,0,0,1,362,257)"><pencil:metadata><pencil:property name="box">26,23</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,2.875</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="21" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="a26b074456ea4473a81ee06c54541507" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="f8c1885cfe3b4259bbfa8ce3bd2ae95d">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#a26b074456ea4473a81ee06c54541507" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#f8c1885cfe3b4259bbfa8ce3bd2ae95d)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="544098beaf1a44a094c62b3553c704f0"/>
+            <use xlink:href="#a26b074456ea4473a81ee06c54541507" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="2.875" y="12" width="20.25" height="0" pencil:name="text" id="fac4a12a35ca4f0e9338db91c49e380d" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="0ee706a9951443b59a6421b018971d40" transform="matrix(1,0,0,1,445,267)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="5d910d03889e43e2ba7641397b7ef536" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="d78e8b7eb706442f8dd77dcad1939aec">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#5d910d03889e43e2ba7641397b7ef536" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#d78e8b7eb706442f8dd77dcad1939aec)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="8fda6e34db2c4940a5d5126f55581094"/>
+            <use xlink:href="#5d910d03889e43e2ba7641397b7ef536" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="7fcf09c5d4f94b8ea0d358a2b7d46652" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="61ca45e04ddb4e60ae959924c5fcfd79" transform="matrix(1,0,0,1,501,276)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="c987d2d68f0943d694b8f6413f4bc851" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="bd116eef56d64928801e23df955421fa">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#c987d2d68f0943d694b8f6413f4bc851" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#bd116eef56d64928801e23df955421fa)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="c996020afbc24989b64bfbfb9ed56adf"/>
+            <use xlink:href="#c987d2d68f0943d694b8f6413f4bc851" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="6466bbdf39df4b5e9c6d47073738dc16" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="18e071bfa67e4b779020b04ead17cb3c" transform="matrix(1,0,0,1,569,267)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="83da859952ea42059d6ff9ee3ce19445" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="2bf8ebc0a6504402bce8e4b949738597">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#83da859952ea42059d6ff9ee3ce19445" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#2bf8ebc0a6504402bce8e4b949738597)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="531571e21b754b61996c2b4c9e7017ff"/>
+            <use xlink:href="#83da859952ea42059d6ff9ee3ce19445" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="7d933d4b7e2c4063bea948afea73859b" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="aa3228bf65e546b38136e402ca95b460" transform="matrix(1,0,0,1,666,250)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="63d19c738f1b48e49f785e2fd2147e20" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="92556bbd77004a4b9ac04fd27ae53094">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#63d19c738f1b48e49f785e2fd2147e20" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#92556bbd77004a4b9ac04fd27ae53094)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="5d708857465742e7bbb8830ac9829286"/>
+            <use xlink:href="#63d19c738f1b48e49f785e2fd2147e20" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="140f54b825c04003911b054ebd08d5ee" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RectWithGradient" id="5c0a85ce607c4029b51920251ccc32a3" transform="matrix(1,0,0,1,840,375)"><pencil:metadata><pencil:property name="box">424,80</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,5</pencil:property><pencil:property name="startFillColor">#2F5F8FFF</pencil:property><pencil:property name="endFillColor">#54AAFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" pencil:name="linearFill" id="74c52dada3544d00ac94b0802cd8adc9">
+                    <stop style="stop-color: rgb(47, 95, 143); stop-opacity: 1;" offset="0" pencil:name="stop1" id="e453a41abd2c4fdda41ec4a400320b9b"/>
+                    <stop style="stop-color: rgb(84, 170, 255); stop-opacity: 1;" offset="1" pencil:name="stop2" id="b67b580c741f4a1880a4d1b720749ecb"/>
+                </linearGradient>
+                <rect width="424" height="80" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: url(&quot;#74c52dada3544d00ac94b0802cd8adc9&quot;) none; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="eaa8e106554641f2a6cb0b299882eb91" transform="translate(0,0)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="66274b62f6084eed928b8b9c7f281b0a">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#eaa8e106554641f2a6cb0b299882eb91" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#66274b62f6084eed928b8b9c7f281b0a)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="2c42b12ee0564f7ea82f2e2fc00661aa"/>
+            <use xlink:href="#eaa8e106554641f2a6cb0b299882eb91" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="5" y="40" width="414" height="0" pencil:name="text" id="dbae2df8b4aa448f93d6ed52f96e598f" style="font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="f9efe4499fd640f3821cf430f874e234" transform="matrix(1,0,0,1,918,410)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="6a4d26563f72463680bf37d61ee347e1" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="e6a660901cae417091252b6568520c8c">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#6a4d26563f72463680bf37d61ee347e1" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#e6a660901cae417091252b6568520c8c)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="81eeb4b6078b474a9d4c33eb7f14cbe5"/>
+            <use xlink:href="#6a4d26563f72463680bf37d61ee347e1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="5506f89d1fc647af860837a0b704f62b" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="005409b9e5e94b249facaa161ddd161c" transform="matrix(1,0,0,1,970,386)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="731818e06403428781167f18323b3aa5" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="c37f69f7e09b448ba6685b11e8c645f3">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#731818e06403428781167f18323b3aa5" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#c37f69f7e09b448ba6685b11e8c645f3)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="9fe749f4347b4274ba3ef1c4ebae1ff4"/>
+            <use xlink:href="#731818e06403428781167f18323b3aa5" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="88e7d22426a74d49a5d379ee90dec600" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="4a2e8dfe1ae84b018122790ef692311e" transform="matrix(1,0,0,1,1018,410)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="d7d0d93f49ab4b91bbc6abd2ed2a62c3" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="e51c616be194428696f6c5824df0f26f">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#d7d0d93f49ab4b91bbc6abd2ed2a62c3" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#e51c616be194428696f6c5824df0f26f)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="41f57ce9da3a450e915ebf6f7f2b9ff9"/>
+            <use xlink:href="#d7d0d93f49ab4b91bbc6abd2ed2a62c3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="a3b5165286fd4b82979b331a76777512" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="7475559ba405425cb99c60b6977eb253" transform="matrix(1,0,0,1,1082,379)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="d60e48ba8357412ab44b34ca9c035617" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="07c05b0f726540fcb8951d97fd2af549">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#d60e48ba8357412ab44b34ca9c035617" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#07c05b0f726540fcb8951d97fd2af549)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="e6b3a704eaa74b8a8512ac0444675a0a"/>
+            <use xlink:href="#d60e48ba8357412ab44b34ca9c035617" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="9675600c0f7d44adab8ebb0c31b12924" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="cd6af5a09f06419884fd17e46967552f" transform="matrix(1,0,0,1,1134,410)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="248ecd5063b04805ba7a2e836fe42da1" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="7ed9ba91ee3f40a8838edb11145d85a5">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#248ecd5063b04805ba7a2e836fe42da1" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#7ed9ba91ee3f40a8838edb11145d85a5)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="183cecd73904438ca36238422bb03dd0"/>
+            <use xlink:href="#248ecd5063b04805ba7a2e836fe42da1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="37e6af6cb31048678c192412c5cbbf98" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="65b3103d2ac1406595d601f862d90ecf" transform="matrix(1,0,0,1,1188,385)"><pencil:metadata><pencil:property name="box">26,24</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="24" height="22" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="b2ef72059da647f38e0b3a6a2cd52062" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="be3b05acfa8f4be1aa55367e4c6b0cf5">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#b2ef72059da647f38e0b3a6a2cd52062" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#be3b05acfa8f4be1aa55367e4c6b0cf5)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="23b691fa49584d0da98695d985908b38"/>
+            <use xlink:href="#b2ef72059da647f38e0b3a6a2cd52062" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3" y="12" width="20" height="0" pencil:name="text" id="f1570057723f4d6f99bee8e30b648434" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="65f0d082b2504704a3e965a93538319f" transform="matrix(1,0,0,1,819,104)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="026cffa42380475c9b39d6d1cc1f30f4" pencil:connectedOutletId="top-center" pencil:viax="1" pencil:viay="143">1,153</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#CC66CCFF</pencil:property><pencil:property name="strokeStyle">2|5,5</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="eacc17603db24ce7ba4c93b98b6b40a1" d="M 7 3 L 0 0 L 7 -3 M 0 0 C 60 0 1 93 1 153 M 4 146 L 1 153 L -2 146"/>
+            </defs>
+            <use xlink:href="#eacc17603db24ce7ba4c93b98b6b40a1" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#eacc17603db24ce7ba4c93b98b6b40a1" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="df3e8afb678e4c83b90210c62b0dff8c" style="stroke: rgb(204, 102, 204); stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 5, 5;"/>
+            <text pencil:name="text" id="9ef10129984842a38eedf6ac96da10a1" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#eacc17603db24ce7ba4c93b98b6b40a1" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="97c559cdf2544dc1a3b14b00b241091f" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="c606169e67ad460eaa2263ffc8bd2d3a" transform="matrix(1,0,0,1,938,83)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="cd6a99c7e7214e5fbdf7df465c2c1976" pencil:connectedOutletId="top-center" pencil:viax="-36" pencil:viay="188">-36,198</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#CC66CCFF</pencil:property><pencil:property name="strokeStyle">2|5,5</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="f2fe0eae1ebe4bd88152910cdfb5cb6e" d="M -7 -3 L 0 0 L -7 3 M 0 0 C -60 0 -36 138 -36 198 M -33 191 L -36 198 L -39 191"/>
+            </defs>
+            <use xlink:href="#f2fe0eae1ebe4bd88152910cdfb5cb6e" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#f2fe0eae1ebe4bd88152910cdfb5cb6e" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="ad1b28f3910f4b0585b4e67e5e5b91b8" style="stroke: rgb(204, 102, 204); stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 5, 5;"/>
+            <text pencil:name="text" id="d0a046d3e57c4eed8858f77347d59c0b" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#f2fe0eae1ebe4bd88152910cdfb5cb6e" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="5e78e0121172468a9bb67bbb5bcc4055" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="0f276e756c0f4962957a89acc3f5eac0" transform="matrix(1,0,0,1,995,118)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="8f9a3ea730e34a369f760bb6d0028765" pencil:connectedOutletId="top-center" pencil:viax="-41" pencil:viay="129">-41,139</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#CC66CCFF</pencil:property><pencil:property name="strokeStyle">2|5,5</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="973ae6328b3c41918c1f55c3ef33ffd8" d="M -7 -3 L 0 0 L -7 3 M 0 0 C -60 0 -41 79 -41 139 M -38 132 L -41 139 L -44 132"/>
+            </defs>
+            <use xlink:href="#973ae6328b3c41918c1f55c3ef33ffd8" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#973ae6328b3c41918c1f55c3ef33ffd8" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="02ef3c2b78144936bab5b28ab88f3392" style="stroke: rgb(204, 102, 204); stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 5, 5;"/>
+            <text pencil:name="text" id="9e4f4c0b7212488c8226937b922b9ba8" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#973ae6328b3c41918c1f55c3ef33ffd8" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="c0d5980aade743728ce05b4ec68f428f" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="3304dc2203ff42eab75985ffe8b18ea3" transform="matrix(1,0,0,1,496,108)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="cfe3dbc2ea414b0ca81633fe9931047a" pencil:connectedOutletId="top-center" pencil:viax="-38" pencil:viay="149">-38,159</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#CC66CCFF</pencil:property><pencil:property name="strokeStyle">2|5,5</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="f33afaebddfd45419d7753bd1a9159d3" d="M -7 -3 L 0 0 L -7 3 M 0 0 C -60 0 -38 99 -38 159 M -35 152 L -38 159 L -41 152"/>
+            </defs>
+            <use xlink:href="#f33afaebddfd45419d7753bd1a9159d3" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#f33afaebddfd45419d7753bd1a9159d3" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="2485f21f2f294893a691e59205857d59" style="stroke: rgb(204, 102, 204); stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 5, 5;"/>
+            <text pencil:name="text" id="9bf0bf20105a469592bfa7ba93b9784b" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#f33afaebddfd45419d7753bd1a9159d3" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="4c6f862147fd4c33ba1aa1af96a2633b" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="93e67ba4e64448898837948c242a798e" transform="matrix(1,0,0,1,572,129)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="62b2a397bce44a21a2ccce3de8790114" pencil:connectedOutletId="top-center" pencil:viax="-58" pencil:viay="137">-58,147</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#CC66CCFF</pencil:property><pencil:property name="strokeStyle">2|5,5</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="45753c9069e948299625e3c7049124bc" d="M -7 -3 L 0 0 L -7 3 M 0 0 C -60 0 -58 87 -58 147 M -55 140 L -58 147 L -61 140"/>
+            </defs>
+            <use xlink:href="#45753c9069e948299625e3c7049124bc" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#45753c9069e948299625e3c7049124bc" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="2531117094174f0997a4adeb3fb8439f" style="stroke: rgb(204, 102, 204); stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 5, 5;"/>
+            <text pencil:name="text" id="41bb0cdf32a84058a34e6b8e2efbd86a" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#45753c9069e948299625e3c7049124bc" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="bef07ba56a404367aeef89308f8b58db" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="91ff495039cc46019059a816357a2540" transform="matrix(1,0,0,1,1068,129)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="060f16fad27442029f8bc3f26acbd25f" pencil:connectedOutletId="top-center" pencil:viax="-2" pencil:viay="111">-2,121</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#CC66CCFF</pencil:property><pencil:property name="strokeStyle">2|5,5</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="1491a9f9e087468187512a7562f26eb0" d="M -7 -3 L 0 0 L -7 3 M 0 0 C -60 0 -2 61 -2 121 M 1 114 L -2 121 L -5 114"/>
+            </defs>
+            <use xlink:href="#1491a9f9e087468187512a7562f26eb0" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#1491a9f9e087468187512a7562f26eb0" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="07c0aebc5f6e426e8a2332aff7f78ffe" style="stroke: rgb(204, 102, 204); stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 5, 5;"/>
+            <text pencil:name="text" id="4bfe07ff5a214531a26d22332813ed9c" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#1491a9f9e087468187512a7562f26eb0" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="93e16700c6524897aed894f9273af6b7" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="d7832027d3ae41fc8595920dfbe082f3" transform="matrix(1,0,0,1,1047,63)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="c072c3591d3b45eca0f4856e2734a62c" pencil:connectedOutletId="top-center" pencil:viax="-45" pencil:viay="208">-45,218</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#CC66CCFF</pencil:property><pencil:property name="strokeStyle">2|5,5</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="faf0909380e84b3eafc59512670bb466" d="M -7 -3 L 0 0 L -7 3 M 0 0 C -60 0 -45 158 -45 218 M -42 211 L -45 218 L -48 211"/>
+            </defs>
+            <use xlink:href="#faf0909380e84b3eafc59512670bb466" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#faf0909380e84b3eafc59512670bb466" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="68003661957240f9a2f8ae2e40078f20" style="stroke: rgb(204, 102, 204); stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 5, 5;"/>
+            <text pencil:name="text" id="f565e2afc55a4e978ef8e2d6aa84cc68" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#faf0909380e84b3eafc59512670bb466" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="a06d5d75e83c4032b8075fe4172b4b4e" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:RoundedRect" id="c085654e4c1e41dab7bad63cffc78b8a" transform="matrix(1,0,0,1,1035,40)"><pencil:metadata><pencil:property name="box">42,31</pencil:property><pencil:property name="withBlur">false</pencil:property><pencil:property name="radius">0,0</pencil:property><pencil:property name="textPadding">0,3.8749999999999996</pencil:property><pencil:property name="fillColor">#FFFFFFFF</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent">
+                </pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+
+            <defs>
+                <rect width="40" height="29" rx="0" ry="0" x="0" y="0" style="stroke-width: 2; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" pencil:name="rrRect" id="083ef75398ef4ce28a8d24f97bd05b15" transform="translate(1,1)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" pencil:name="shadingFilter" id="6f4fbd711f974f70abfb140d228fb219">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#083ef75398ef4ce28a8d24f97bd05b15" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" pencil:filter="url(#6f4fbd711f974f70abfb140d228fb219)" style="opacity: 0.5; visibility: hidden; display: none;" pencil:heavy="true" pencil:name="bgCopy" id="6740e022f0954830b8d12dd0a618a6d1"/>
+            <use xlink:href="#083ef75398ef4ce28a8d24f97bd05b15" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="3.875" y="16" width="34.25" height="0" pencil:name="text" id="0bcf8832b21d467cb6d4077022ddf31d" style="font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:PlainTextV2" id="70c5a63e794243dd901878bd2b19b6dc" transform="matrix(1,0,0,1,1046,61)"><pencil:metadata><pencil:property name="disabled">false</pencil:property><pencil:property name="width">100,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="label">SA</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textFont">sans-serif|normal|normal|16px|none</pencil:property><pencil:property name="textAlign">0,0</pencil:property></pencil:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" pencil:name="bgRect" id="7e1330a3f5104ae4b5854d5d0b35ee5f" width="0" height="0"/>
+            <text xml:space="preserve" pencil:name="text" id="7daaec9a3df242ceb00acc9678074bf0" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: sans-serif; font-size: 16px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">SA</tspan></text>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="6be8767731f44644845bb11df1418f50" transform="matrix(1,0,0,1,815,72)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="c085654e4c1e41dab7bad63cffc78b8a" pencil:connectedOutletId="top-left" pencil:viax="211.95425920414232" pencil:viay="-37.93852296837114">220,-32</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="8baebcba3a2e4dcdb0885f5f96fad045" d="M 3 -7 L 0 0 L -3 -7 M 0 0 C 0 -60 172 -68 220 -32 M 216 -39 L 220 -32 L 212 -34"/>
+            </defs>
+            <use xlink:href="#8baebcba3a2e4dcdb0885f5f96fad045" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#8baebcba3a2e4dcdb0885f5f96fad045" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="b9c29178ebf34cdf87d058160da5ff4a" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text pencil:name="text" id="321038cebff04fe88fd735bcd431375a" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#8baebcba3a2e4dcdb0885f5f96fad045" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="925c100272d8410a8c9d2c752e03bfd3" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="be34cc66e3374cff9d7fa2ecaa5d8b5c" transform="matrix(1,0,0,1,1077,54)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="b00d6aae071f4d3aa3a14c4ee3912fe5" pencil:connectedOutletId="top-right" pencil:viax="20.456561006171796" pencil:viay="27.336690164697547">13,34</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#1B3280FF</pencil:property><pencil:property name="strokeStyle">2|</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">"Liberation Sans",Arial,sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#000000FF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="2f0e72ad12a741fabb5534d5c0483300" d="M -3 7 L 0 0 L 3 7 M 0 0 C 0 30 35 14 13 34 M 21 31 L 13 34 L 16 27"/>
+            </defs>
+            <use xlink:href="#2f0e72ad12a741fabb5534d5c0483300" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#2f0e72ad12a741fabb5534d5c0483300" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="cf6a8466577f4640a5e6ad79942bdb23" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text pencil:name="text" id="3b9488b809d041e593793eb93b3a95f1" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#2f0e72ad12a741fabb5534d5c0483300" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="e6e3aad9e0d149eca57358f6c5cb969d" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:PlainTextV2" id="057cf58ab18649b587776fa278dea77a" transform="matrix(1,0,0,1,228,66)"><pencil:metadata><pencil:property name="disabled">false</pencil:property><pencil:property name="width">100,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="label">Garwolin</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textAlign">0,0</pencil:property></pencil:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" pencil:name="bgRect" id="135b2a50066641c4ac91c080f9138058" width="0" height="0"/>
+            <text xml:space="preserve" pencil:name="text" id="b21138b4149c4d9391999a242bdbcdcf" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Garwolin</tspan></text>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:PlainTextV2" id="cb35721fbfb14f459ed59b3c422162bd" transform="matrix(1,0,0,1,752,58)"><pencil:metadata><pencil:property name="disabled">false</pencil:property><pencil:property name="width">100,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="label">Ełk</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textAlign">0,0</pencil:property></pencil:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" pencil:name="bgRect" id="634a8da08c284d698a64aff6f4e80c62" width="0" height="0"/>
+            <text xml:space="preserve" pencil:name="text" id="a87dfcbd1e214e149f501a0f41bc4240" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Ełk</tspan></text>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:PlainTextV2" id="1774fa6538d24e7db3aac913ec6d75c0" transform="matrix(1,0,0,1,100,266)"><pencil:metadata><pencil:property name="disabled">false</pencil:property><pencil:property name="width">100,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="label">Chmura</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textAlign">0,0</pencil:property></pencil:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" pencil:name="bgRect" id="86d2b4457f9945d585ae715dea4876c9" width="0" height="0"/>
+            <text xml:space="preserve" pencil:name="text" id="a7684311f4454071b025b187f85f03b2" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Chmura</tspan></text>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:PlainTextV2" id="6c2f18a5e0cb4f168216e9df927c680e" transform="matrix(1,0,0,1,774,402)"><pencil:metadata><pencil:property name="disabled">false</pencil:property><pencil:property name="width">100,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="label">Chmura</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textAlign">0,0</pencil:property></pencil:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" pencil:name="bgRect" id="f7d375c8dd764125bf45b486a240f112" width="0" height="0"/>
+            <text xml:space="preserve" pencil:name="text" id="0a9c14054bb84e4e841c2156a29afa7f" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Chmura</tspan></text>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:PlainTextV2" id="1e1b365c24564b0992aac49f3a777aac" transform="matrix(1,0,0,1,95,297)"><pencil:metadata><pencil:property name="disabled">false</pencil:property><pencil:property name="width">100,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="label">Lokalizacja 1</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textAlign">0,0</pencil:property></pencil:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" pencil:name="bgRect" id="f51e48014e2e4ed48f1737a10b182e66" width="0" height="0"/>
+            <text xml:space="preserve" pencil:name="text" id="d3278625018d425d954aa7e6184288ff" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Lokalizacja 1</tspan></text>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:PlainTextV2" id="e58b15f4f8ce41aab8c8945afc059ab5" transform="matrix(1,0,0,1,752,438)"><pencil:metadata><pencil:property name="disabled">false</pencil:property><pencil:property name="width">100,0</pencil:property><pencil:property name="fixedWidth">false</pencil:property><pencil:property name="label">Lokalizacja 2</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textAlign">0,0</pencil:property></pencil:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" pencil:name="bgRect" id="2192902ec18c4788a78b02a86b33a8a0" width="0" height="0"/>
+            <text xml:space="preserve" pencil:name="text" id="c8aeb58bc3694fbe94942001722e63f8" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Lokalizacja 2</tspan></text>
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="081ae5f8089f4ac7b18343e9c7c78116" transform="matrix(1,0,0,1,516,296)"><pencil:metadata><pencil:property name="startPin">0,0</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="f9efe4499fd640f3821cf430f874e234" pencil:connectedOutletId="top-center" pencil:viax="415" pencil:viay="104">415,114</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#CC66CCFF</pencil:property><pencil:property name="strokeStyle">2|5,5</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="75e2b7cea10047ddb4f05c47bdc811c6" d="M 7 3 L 0 0 L 7 -3 M 0 0 C 60 0 415 54 415 114 M 418 107 L 415 114 L 412 107"/>
+            </defs>
+            <use xlink:href="#75e2b7cea10047ddb4f05c47bdc811c6" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#75e2b7cea10047ddb4f05c47bdc811c6" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="02e8b1a7ec3047bd9bbfccd1ffbe6478" style="stroke: rgb(204, 102, 204); stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 5, 5;"/>
+            <text pencil:name="text" id="830ac6dfa0b74f0eb5f9e8fb6ccb0435" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#75e2b7cea10047ddb4f05c47bdc811c6" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="cf894be779064d09a4299bf96b6480c2" dx="0"/>
+                </textPath>
+            </text>
+
+        </g><g pencil:type="Shape" pencil:def="Evolus.Common:arrow" id="4cc81fa497544bc69c61c7e30b2169c5" transform="matrix(1,0,0,1,1100,186)"><pencil:metadata><pencil:property name="startPin" pencil:connectedShapeId="060f16fad27442029f8bc3f26acbd25f" pencil:connectedOutletId="bottom-center" pencil:viax="-34" pencil:viay="98">-34,88</pencil:property><pencil:property name="endPin" pencil:connectedShapeId="005409b9e5e94b249facaa161ddd161c" pencil:connectedOutletId="top-right" pencil:viax="-96.65196555372512" pencil:viay="193.21719897266934">-104,200</pencil:property><pencil:property name="withStartArrow">true</pencil:property><pencil:property name="withEndArrow">true</pencil:property><pencil:property name="mode">curvy</pencil:property><pencil:property name="detached">false</pencil:property><pencil:property name="strokeColor">#CC66CCFF</pencil:property><pencil:property name="strokeStyle">2|5,5</pencil:property><pencil:property name="textContent"/><pencil:property name="textFont">sans-serif|normal|normal|13px|none</pencil:property><pencil:property name="textColor">#CC66CCFF</pencil:property><pencil:property name="textAlign">1,1</pencil:property></pencil:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" pencil:name="path" id="ea30c2da73e74249a2e8c166e3d06fb5" d="M -37 95 L -34 88 L -31 95 M -34 88 C -34 148 -60 159 -104 200 M -96 197 L -104 200 L -101 193"/>
+            </defs>
+            <use xlink:href="#ea30c2da73e74249a2e8c166e3d06fb5" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#ea30c2da73e74249a2e8c166e3d06fb5" xmlns:xlink="http://www.w3.org/1999/xlink" pencil:name="outArrow1" id="cabe611df91c4484a026eea2f3b7f2f0" style="stroke: rgb(204, 102, 204); stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 5, 5;"/>
+            <text pencil:name="text" id="175669e8f5c74354bbb2841201916a3b" style="fill: rgb(204, 102, 204); fill-opacity: 1; font-family: sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#ea30c2da73e74249a2e8c166e3d06fb5" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" pencil:name="textSpan" id="02506744d5db46f0a74a4a2fdf4cb595" dx="0"/>
+                </textPath>
+            </text>
+
+        </g></g></g></svg>

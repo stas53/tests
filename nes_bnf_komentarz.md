@@ -27,7 +27,7 @@ metadanych. Format ten zdefiniowano formalnie przy pomocy tzw. XSD, czyli pliku 
 
 ### Propozycja zmian NES
 
-Grupa robocza powołana w końcu 2018 roku przez porozumienie MC - NSA - PUW, przy współpracy osób z MKiDN, NDAP i Laboratorium EE,
+Grupa robocza powołana w końcu 2016 roku przez porozumienie MC - NSA - PUW, przy współpracy osób z MKiDN, NDAP i Laboratorium EE,
 przygotowała opis zmodyfikowanej wersji NES, dla potrzeb „paczki administracyjnej” — formatu danych przewidzianego do przekazywania
 danych o sprawach z systemów EZD urzędów państwowych, do Sądów Administracyjnych.<br/>
 Wydaje się, że po pewnych rozszerzeniach, ten sam format będzie mógł być wykorzystany do tworzenia „paczek migracyjnych” — do

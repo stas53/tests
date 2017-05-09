@@ -1,6 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 
-<style>
+<html lang="pl">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Składnia w BNF</title>
+
+    <style>
         .raw,
         span.ptag,
         span.ktag,
@@ -66,14 +72,7 @@
                                       font-size: 140%;
                                       font-weight: bold;
         }
-</style>
-
-
-<html>
-
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>Składnia w BNF</title>
+    </style>
   </head>
 
   <body onLoad="initialize()">
@@ -85,7 +84,7 @@
       <h1>w notacji BNF</h1>
 
       <div class="container">
-        <span class="showHelpButton"><button onClick="turnOnOffHelp()"> Objaśnienie </button></span>
+        <span class="showHelpButton"><button onClick="turnOnOffHelp();"> Objaśnienie </button></span>
         <span class="displayXmlTriggerButton"><input id="ShowXMLOnOff" type='checkbox' checked='1' onclick='turnOnOffXML(this.checked);'/>
                    &nbsp; Format XML </span>
       </div>
@@ -150,7 +149,7 @@
           Bez zaznaczenia pola wyboru "Format XML", pokazywana jest struktura danych; w tej postaci kolejność elementów nie ma znaczenia.
           Zaznaczenie "Format XML" powoduje wyświetlenie danych w formacie XML, z pokazaniem własciwych tagów pól.</p>
 
-        <button onClick="turnOnOffHelp(false)">Schowaj</button>
+        <button onClick="turnOnOffHelp(false);">Schowaj</button>
       </div>
 
 
@@ -1089,7 +1088,7 @@
 
       function recalledDefHtml ( elem ) {
           var html = '<div class="recalledDef">' + getDefHtml(elem) + 
-                     '<button onClick="closeRecalledDef(this)">Schowaj</button></div>';
+                     '<button onClick="closeRecalledDef(this);">Schowaj</button></div>';
           return html;
       }
 
@@ -1126,7 +1125,7 @@
           else {
               html += '<p>NIE JEST UŻYTY W INNYCH DEFINICJACH</p>';
           }
-          html += "\n" + '<button onClick="closeRecalledDef(this)">Schowaj</button></div>';
+          html += "\n" + '<button onClick="closeRecalledDef(this);">Schowaj</button></div>';
           return html;
       }
 
@@ -1193,8 +1192,8 @@
       // - adding "showUse(...)" onClick calls to each 'definition'
       function initialize() {
           appendDivToAllDefinitionStruct("blockDef", 'div', 'class', "expandDiv");
-          setTagsOnClicks("useHere"   , "javascript:showDef(this)");
-          setTagsOnClicks("definition", "javascript:showUse(this)");
+          setTagsOnClicks("useHere"   , "javascript:showDef(this);");
+          setTagsOnClicks("definition", "javascript:showUse(this);");
           turnAccordinglyXMLSyntax();
           turnOnOffHelp(false);
       }

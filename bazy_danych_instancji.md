@@ -30,9 +30,9 @@ Opinie:
 Jako serwer SQL można wybrać PostgreSql albo MySql, jako najbardziej renomowane systemy.
 
 Ale czy można tak stawiać zagadnienie ?
-Tak można pytać, gdy mamy do napisania jakąś aplikację i potrzebujemy w niej użyć bazy danych.
+Tak można rozważać, gdy mamy do napisania jakąś aplikację i potrzebujemy w niej użyć bazy danych.
 
-Tu sytuacja jest inna. Tworzymy platformę. Czy naprawdę chcemy ogłosić, że na tej platformie bedą mogły działać tylko aplikacje używające PostgreSql, w dodatku o pewnej określonej wersji ?
+Tu sytuacja jest inna. Tworzymy platformę. Czy na tej platformie bedą mogły działać tylko aplikacje używające np. PostgreSql, w dodatku o pewnej określonej wersji ?
 
 
 ### 3. Ograniczenia rodzajów serwerów ?

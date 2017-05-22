@@ -1,18 +1,12 @@
 <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 <h2>
-<p align="center">Zapis propozycji nowej budowy metadanych  
-
-Niezbędnych Elementów Struktury (NES)  
-
-dokumentów elektronicznych,  
-
-w Notacji Backusa-Naura (BNF)  
-
-oraz  
-
-plik XSD do automatycznej walidacji  
-
-paczek administracyjnych</p>
+<p align="center">Zapis propozycji nowej budowy metadanych</p>
+<p align="center">Niezbędnych Elementów Struktury (NES)</p>
+<p align="center">dokumentów elektronicznych,</p>
+<p align="center">w Notacji Backusa-Naura (BNF)</p>
+<p align="center">oraz</p>
+<p align="center">plik XSD do automatycznej walidacji</p>
+<p align="center">paczek administracyjnych</p>
 </h2>
 
 <p align="right"><em>Na skróty: dokument HTML jest tu: <a href="https://stas53.github.io/tests/nes_bnf.html"> nes_bnf.html</a>
@@ -55,7 +49,7 @@ w postaci schematów produkcji, uzywanych do definiowania
 Notacja Backusa-Naura — BNF.
 
 Dokument
-[nes_bnf.html](https://stas53.github.io/tests/nes_bnf.html)
+[nes_bnf.html](nes_bnf.html)
 pokazuje zarówno strukturę danych, jak i ich zapis w tekstowym formacie XML.  
 Na stronie znajduje się przycisk, aktywujący wyświetlenie objaśnień.
 

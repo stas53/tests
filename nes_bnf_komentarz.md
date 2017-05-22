@@ -1,11 +1,18 @@
 <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 <h2>
 <p align="center">Zapis propozycji nowej budowy metadanych  
+
 Niezbędnych Elementów Struktury (NES)  
+
 dokumentów elektronicznych,  
+
 w Notacji Backusa-Naura (BNF)  
+
 oraz  
-plik XSD do automatycznej walidacji paczek administracyjnych</p>
+
+plik XSD do automatycznej walidacji  
+
+paczek administracyjnych</p>
 </h2>
 
 <p align="right"><em>Na skróty: dokument HTML jest tu: <a href="https://stas53.github.io/tests/nes_bnf.html"> nes_bnf.html</a>

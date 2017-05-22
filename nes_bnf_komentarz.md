@@ -1,17 +1,16 @@
-<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 <h2>
-<p align="center">Zapis propozycji nowej budowy metadanych</p>
-<p align="center">Niezbędnych Elementów Struktury (NES)</p>
-<p align="center">dokumentów elektronicznych,</p>
-<p align="center">w Notacji Backusa-Naura (BNF)</p>
-<p align="center">oraz</p>
-<p align="center">plik XSD do automatycznej walidacji</p>
-<p align="center">paczek administracyjnych</p>
+ <p align="center">Zapis propozycji nowej budowy metadanych</p>
+ <p align="center">Niezbędnych Elementów Struktury (NES)</p>
+ <p align="center">dokumentów elektronicznych,</p>
+ <p align="center">w Notacji Backusa-Naura (BNF)</p>
+ <p align="center">oraz</p>
+ <p align="center">plik XSD do automatycznej walidacji</p>
+ <p align="center">paczek administracyjnych</p>
 </h2>
 
 <p align="right"><em>Na skróty: dokument HTML jest tu: <a href="https://stas53.github.io/tests/nes_bnf.html"> nes_bnf.html</a>
 </em></p>
-<p align="right"><em>dokument XSD jest tu: <a href="https://stas53.github.io/tests/nes_20.xsd"> nes_20.xsd</a>
+<p align="right"><em>dokument XSD jest tu: <a href="nes_20.xsd"> nes_20.xsd</a>
 </em></p>
 
 ### Środowisko
@@ -48,23 +47,24 @@ w postaci schematów produkcji, uzywanych do definiowania
 [języków bezkontekstowych](http://edu.pjwstk.edu.pl/wyklady/jfa/scb/jfa-main-node11.html), w zapisie znanym jako
 Notacja Backusa-Naura — BNF.
 
-Dokument
-[nes_bnf.html](nes_bnf.html)
-pokazuje zarówno strukturę danych, jak i ich zapis w tekstowym formacie XML.  
-Na stronie znajduje się przycisk, aktywujący wyświetlenie objaśnień.
+Dokument HTML [nes_bnf.html](https://stas53.github.io/tests/nes_bnf.html)
+można przeglądać wykorzystując to, że symbole nieterminalne są w nim aktywnymi linkami do definicji.
+Pokazuje on zarówno strukturę danych, jak i ich zapis w tekstowym formacie XML.
+Na stronie znajduje się przycisk, aktywujący wyświetlenie objaśnień.  
+Sam [kod źródłowy nes_bnf.html](nes_bnf.html) jest dostepny w niniejszym repozytorium.
 
 ### Plik XSD do automatycznej walidacji paczek administracyjnych
 
 Paczki danych eksportowane z systemów EZD, powinny być zgodne z wymaganiami sformułowanymi dla
 Niezbędnych Elementów Struktury dokumentów elektronicznych i z formatem XML dla takiej paczki.
 
-Przygotowano [plik definicyjny .XSD](nes_20.xsd), który może zostać użyty do walidacji
+Przygotowano [plik definicyjny XSD](nes_20.xsd), który może zostać użyty do walidacji
 formalnej poprawności paczek – plików XML.
 
- Plik XSD można użyć do walidacji paczki, posługując się w tym celu generalnym programem, np.
+ Plik XSD można użyć do kontroli poprawniści paczki, posługując się w tym celu generalnym programem walidacyjnym, np.
 [dostępnym w  sieci](http://www.freeformatter.com/xml-validator-xsd.html). Docelowo, należy przygotować specjalizowany
- program do walidacji paczek, oparty na tym konkretnym XSD.
+ program do walidacji paczek administracyjnych, oparty na tym konkretnym XSD.
 
-Rozważenia wymaga pomysł napisania „walidatora semantycznego” — kontrolującego znaczenie danych, których to cech
+Rozważenia wymaga też pomysł napisania „walidatora semantycznego” — kontrolującego znaczenie danych, których to cech
 nie można skontrolować przy pomocy badania samej składni XML. Nadmienić należy, że dla paczek archiwalnych zdefiniowanych
 w rozporządzeniach z 2006 r., takiego walidatora semantycznego nie skonstruowano.
